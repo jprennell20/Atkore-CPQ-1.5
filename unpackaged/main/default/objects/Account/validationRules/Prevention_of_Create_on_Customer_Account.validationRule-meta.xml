@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevention_of_Create_on_Customer_Account</fullName>
+    <active>true</active>
+    <description>Prevents users from creating customer accounts.</description>
+    <errorConditionFormula>AND ( 
+$Profile.Id = &quot;00e560000012kL5&quot;, 
+$RecordType.Id = &quot;3D012U0000000LqxgIAC&quot; 
+)</errorConditionFormula>
+    <errorMessage>You cannot create or edit a customer type account.</errorMessage>
+</ValidationRule>

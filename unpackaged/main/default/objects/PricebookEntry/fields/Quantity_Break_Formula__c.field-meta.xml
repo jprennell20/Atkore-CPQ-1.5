@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_Break_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ NOT(
+  OR(
+   ISNULL(
+    Quantity_Break__c 
+   ),
+   ISNULL(
+    Quantity_Break_Price__c
+   )  
+  )
+ ),
+ TEXT(
+  CurrencyIsoCode
+ ) &amp; 
+ &quot; &quot; &amp; 
+ TEXT(
+  FLOOR(
+   Quantity_Break_Price__c
+  ) 
+ ) &amp; 
+ &quot;.&quot; &amp; 
+ LPAD(
+  TEXT(
+   (Quantity_Break_Price__c - FLOOR( Quantity_Break_Price__c ))*100 
+  ), 2, &quot;0&quot;
+ ) &amp; 
+ &quot; (for quantities over &quot; &amp; 
+ TEXT(
+  Quantity_Break__c
+ ) &amp; 
+ &quot;)&quot;, &quot;&quot;
+)</formula>
+    <label>Quantity Break Price</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

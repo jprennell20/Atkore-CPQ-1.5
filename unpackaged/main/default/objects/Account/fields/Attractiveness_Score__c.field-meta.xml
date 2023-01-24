@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attractiveness_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>Strategic_Fit_MA__c + Growth_Outlook__c + Achieve_Relevant_Market_Position__c + Ability_to_leverage_Existing_Atkore_GTM__c + Gross_Margin_30__c + Synergies_Commercial_and_or_Cost__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attractiveness Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Division_s__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+        Total_Cost_Aluminum_Conduit_Fittings__c &gt; 0,
+	 &quot;CRC, &quot;,
+	 &quot;&quot;
+)&amp;
+IF (
+	OR(
+		Total_Cost_ECFC__c &gt; 0,
+		Total_Cost_Conduit_Cable_Fittings__c &gt; 0
+	),
+	 &quot;ECFC, &quot;,
+	 &quot;&quot;
+)&amp;
+IF (
+	OR(
+		Total_Cost_ECN__c &gt; 0,
+		Total_Cost_Steel_Conduit__c &gt; 0
+	),
+	 &quot;Steel Conduit &amp; ECN, &quot;,
+	 &quot;&quot;
+)&amp;
+IF (
+	 Total_Cost_Metal_Framing__c &gt; 0,
+	 &quot;Metal Framing, &quot;,
+	 &quot;&quot;
+)&amp;
+IF (
+	OR(
+		Total_Cost_PVC_Conduit__c &gt; 0,
+		 Total_Cost_PVC_Fittings__c &gt; 0
+	),
+	 &quot;PVC Conduit &amp; Fittings, &quot;,
+	 &quot;&quot;
+)&amp;
+IF (
+	 Total_Cost_PVC_Water_Pipe__c &gt; 0,
+	 &quot;PVC Water Pipe, &quot;,
+	 &quot;&quot;
+)</formula>
+    <label>Pricing Division(s)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGM_AFC_Member__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This account is a member of an AFC Price Group</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This account is a member of an AFC Price Group</inlineHelpText>
+    <label>Member of AFC Price Group</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EngineerCompany__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Name of the engineering company, which assisted with product selection.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the engineering company, which assisted with product selection.</inlineHelpText>
+    <label>Engineer Company</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (Engineer)</relationshipLabel>
+    <relationshipName>Opportunities3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acct_Status__c</fullName>
+    <description>Acct Status in SAP (Active or Inactive_</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Acct Status in SAP (Active or Inactive_</inlineHelpText>
+    <label>Acct Status</label>
+    <length>8</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Company</fullName>
+    <availability>online</availability>
+    <description>Button to create specific Company Record Types</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Company</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>OR
+({!Account.RecordTypeId}= 0120B000000EDcSQAW, 
+{!Account.RecordTypeId}= 0124O0000005nzQQAQ,
+{!Account.RecordTypeId}= 012U0000000LqxlIAC)</url>
+</WebLink>

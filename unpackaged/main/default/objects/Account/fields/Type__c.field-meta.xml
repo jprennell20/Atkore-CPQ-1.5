@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Electrical Wholesaler</fullName>
+                <default>false</default>
+                <label>Electrical Wholesaler</label>
+            </value>
+            <value>
+                <fullName>M&amp;E Wholesaler</fullName>
+                <default>false</default>
+                <label>M&amp;E Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Direct Sales</fullName>
+                <default>false</default>
+                <label>Direct Sales</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+                <label>Contractor</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>End User</fullName>
+                <default>false</default>
+                <label>End User</label>
+            </value>
+            <value>
+                <fullName>Syspro</fullName>
+                <default>false</default>
+                <label>Syspro</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

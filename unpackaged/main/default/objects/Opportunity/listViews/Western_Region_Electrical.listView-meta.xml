@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Western_Region_Electrical</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Atkore_Quote__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Product_Category__c</columns>
+    <columns>Product_Sub_Category__c</columns>
+    <columns>Related_Project__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jguti,kmori,jbeta,kpemb</value>
+    </filters>
+    <filters>
+        <field>Agent_Regions_formula__c</field>
+        <operation>contains</operation>
+        <value>AFC WEST,ATC WEST,UNI WEST,TJC WEST</value>
+    </filters>
+    <label>Western Region Electrical</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Western_Region_Team</group>
+    </sharedTo>
+</ListView>

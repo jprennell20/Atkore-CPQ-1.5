@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBU__c</fullName>
+    <externalId>false</externalId>
+    <label>SBU</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Steel_Conduit</fullName>
+                <default>false</default>
+                <label>Steel Conduit</label>
+            </value>
+            <value>
+                <fullName>Plastic_Pipe_Conduit</fullName>
+                <default>false</default>
+                <label>Plastic Pipe &amp; Conduit</label>
+            </value>
+            <value>
+                <fullName>Conduit Cable Fittings</fullName>
+                <default>false</default>
+                <label>Conduit &amp; Cable Fittings</label>
+            </value>
+            <value>
+                <fullName>Electrical Cable &amp; Flexible Conduit</fullName>
+                <default>false</default>
+                <label>Electrical Cable &amp; Flexible Conduit</label>
+            </value>
+            <value>
+                <fullName>Cable Management N.A.</fullName>
+                <default>false</default>
+                <label>Cable Management N.A.</label>
+            </value>
+            <value>
+                <fullName>Metal Framing/Cable Mgmt. N.A.</fullName>
+                <default>false</default>
+                <label>Metal Framing/Cable Mgmt. N.A.</label>
+            </value>
+            <value>
+                <fullName>Metal Framing/Cable Mgmt. Europe</fullName>
+                <default>false</default>
+                <label>Metal Framing/Cable Mgmt. Europe</label>
+            </value>
+            <value>
+                <fullName>Metal Framing/Cable Mgmt. APAC</fullName>
+                <default>false</default>
+                <label>Metal Framing/Cable Mgmt. APAC</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Mechanical Pipe &amp; Tube</fullName>
+                <default>false</default>
+                <label>Mechanical Pipe &amp; Tube</label>
+            </value>
+            <value>
+                <fullName>Construction Services</fullName>
+                <default>false</default>
+                <label>Construction Services</label>
+            </value>
+            <value>
+                <fullName>HDPE Conduit</fullName>
+                <default>false</default>
+                <label>HDPE Conduit</label>
+            </value>
+            <value>
+                <fullName>Electrical Boxes &amp; Enclosures</fullName>
+                <default>false</default>
+                <label>Electrical Boxes &amp; Enclosures</label>
+            </value>
+            <value>
+                <fullName>Corrosion Resistant Conduit</fullName>
+                <default>false</default>
+                <label>Corrosion Resistant Conduit</label>
+            </value>
+            <value>
+                <fullName>Metal Framing/Cable Mngmt. UK</fullName>
+                <default>false</default>
+                <label>Metal Framing/Cable Mngmt. UK</label>
+            </value>
+            <value>
+                <fullName>Flexible Conduit EMEA</fullName>
+                <default>false</default>
+                <label>Flexible Conduit EMEA</label>
+            </value>
+            <value>
+                <fullName>Pre-wired/Modular Devices</fullName>
+                <default>false</default>
+                <label>Pre-wired/Modular Devices</label>
+            </value>
+            <value>
+                <fullName>New SBU</fullName>
+                <default>false</default>
+                <label>New SBU</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <valueName>Electrical Cable &amp; Flexible Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Cable Management N.A.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <valueName>Steel_Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <valueName>Plastic_Pipe_Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <valueName>Conduit Cable Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conduit &amp; Fittings</controllingFieldValue>
+            <valueName>HDPE Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Metal Framing/Cable Mgmt. N.A.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Metal Framing/Cable Mgmt. Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Metal Framing/Cable Mgmt. APAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Mechanical Pipe &amp; Tube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical Products &amp; Solutions</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Construction Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <valueName>Corrosion Resistant Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical ​</controllingFieldValue>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>New SBU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Metal Framing/Cable Mngmt. UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Flexible Conduit EMEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety &amp; Infrastructure​</controllingFieldValue>
+            <valueName>Pre-wired/Modular Devices</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

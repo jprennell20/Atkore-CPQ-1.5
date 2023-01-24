@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weight_UoM__c</fullName>
+    <externalId>false</externalId>
+    <label>Weight UoM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>lbs</fullName>
+                <default>false</default>
+                <label>lbs</label>
+            </value>
+            <value>
+                <fullName>lbs/ft</fullName>
+                <default>false</default>
+                <label>lbs/ft</label>
+            </value>
+            <value>
+                <fullName>Kgs</fullName>
+                <default>false</default>
+                <label>Kgs</label>
+            </value>
+            <value>
+                <fullName>Kg/M</fullName>
+                <default>false</default>
+                <label>Kg/M</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

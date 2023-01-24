@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This account has been identified by the Atkore Account Prioritization process as a Key Account.  Key Accounts require an account plan created for the current fiscal year</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This account has been identified by the Atkore Account Prioritization process as a Key Account.  Key Accounts require an account plan created for the current fiscal year</inlineHelpText>
+    <label>Key Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

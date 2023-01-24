@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Non_standard_bundle_size__c = FALSE, 
+
+IMAGE(&quot;https://atkore--uat--c.documentforce.com/servlet/servlet.ImageServer?id=0157d000000TiKO&amp;oid=00D7d0000077h9s&amp;lastMod=1630596381000&quot;, &quot;Nonstandard bundle&quot;, 33, 100), 
+
+&quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Notes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

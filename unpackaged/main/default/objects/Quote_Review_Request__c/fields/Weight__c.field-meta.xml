@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weight__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division__c ,
+&#39;CRC&#39; , Quote__r.Total_Weight_Aluminum_Conduit_Fittings__c,
+&#39;ALFITT&#39; , Quote__r.Total_Weight_ConduitCableFittings__c,
+&#39;STEELCON / ECN&#39; , Quote__r.Total_Weight_Steel_Conduit__c + Quote__r.Total_Weight_ECN__c,
+&#39;AFC&#39; , Quote__r.Total_Weight_ECFC__c,
+&#39;MTLFRM&#39;, Quote__r.Total_Weight_Metal_Framing__c,
+&#39;PPC&#39;, Quote__r.Total_Weight_PVC_Conduit__c + Quote__r.Total_Weight_PVC_Fittings__c + Quote__r.Total_Weight_PVC_Water_Pipe__c,
+NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Weight</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

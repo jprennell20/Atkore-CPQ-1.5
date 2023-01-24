@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFC_ACS_Modular_Growth__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>AFC Strategic Initiative for ACS Modular growth.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>AFC Strategic Initiative for ACS Modular growth.</inlineHelpText>
+    <label>AFC ACS Modular Growth</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freight_Added_to_Quoted_Price__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  Pricing_Division_Code__c = &#39;STEELCON&#39;,
+  TRUE,
+  FALSE
+)</formula>
+    <label>Freight Added to Quoted Price</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

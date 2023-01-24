@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_Metal_Framing_Approval_25__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check if Margin Metal Framing Approval is needed for 25% margin</description>
+    <externalId>false</externalId>
+    <label>Margin Metal Framing Approval (25)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

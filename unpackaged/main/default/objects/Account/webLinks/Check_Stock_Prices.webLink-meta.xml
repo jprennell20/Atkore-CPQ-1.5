@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Stock_Prices</fullName>
+    <availability>online</availability>
+    <description>Page for user to search products/parts and display the calculated net price based on current stock quotes for this account.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Check Stock Prices</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>location.assign(&quot;{!URLFOR($Site.Prefix + &#39;/apex/PGM_StockPriceCheck_Page?id=&#39; + Account.Id)}&quot;);</url>
+</WebLink>

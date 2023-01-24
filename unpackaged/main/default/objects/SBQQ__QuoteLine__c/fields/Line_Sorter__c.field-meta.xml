@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Sorter__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+      Pricing_Division_Code__c = &#39;AFC&#39;,
+      0,
+
+
+IF(
+   SBQQ__Product__r.Outer_Diameter__c &gt;0, 
+   SBQQ__Product__r.Outer_Diameter__c, 
+   IF(
+     SBQQ__Product__r.Nominal_Gauge__c &gt; 0,
+     SBQQ__Product__r.Nominal_Gauge__c,
+     IF(
+      SBQQ__Product__r.Trade_Size__c &gt; 0, 
+      SBQQ__Product__r.Trade_Size__c,
+      IF(
+       SBQQ__Product__r.Length__c &gt; 0, 
+       SBQQ__Product__r.Length__c, 
+       0
+      )
+    )
+  )
+)
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Line Sorter</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

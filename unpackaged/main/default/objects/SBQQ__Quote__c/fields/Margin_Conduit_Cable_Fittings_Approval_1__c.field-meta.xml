@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_Conduit_Cable_Fittings_Approval_1__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True if margin &gt; or = 20</description>
+    <externalId>false</externalId>
+    <label>Margin Conduit Cable Fittings Approval 1</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

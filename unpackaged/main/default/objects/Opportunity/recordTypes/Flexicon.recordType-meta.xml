@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flexicon</fullName>
+    <active>true</active>
+    <businessProcess>Flexicon Process</businessProcess>
+    <label>Flexicon</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bid_or_Buy_Picklist__c</picklist>
+        <values>
+            <fullName>Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budgetary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buy - Multiple Shipments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buy_Immediate_Shipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Unit__c</picklist>
+        <values>
+            <fullName>Cable Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Products %26 Solutions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Study_Opportunity__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>External Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>AK Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Tube %26 Pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arcelor Mittal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bull Moose Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detroit Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epix Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I-Beam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana Steel %26 Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jackson Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LP Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leavitt Tube %28Maruichi Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lockjoint Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Metals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marcegaglia USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Matic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Ohio Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parthenon Metal Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phoenix Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelby Welded Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sterling Pipe %26 Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T%26B Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tapco Tube Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarter Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tube Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U-Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Tube Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welded Tube of Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wheatland Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wood</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DB_Competitor__c</picklist>
+        <values>
+            <fullName>Competitor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deal_Type__c</picklist>
+        <values>
+            <fullName>Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joint Venture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Electrical_Target_Growth_State__c</picklist>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Engineering_Requests_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exclusive_Process__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Focused_Category__c</picklist>
+        <values>
+            <fullName>Aluminum Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit %26 Cable Fittings %28Konkore%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liquidtight Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modular Power %28ACS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC-Coated Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Assemblies %28ACS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire Basket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GSP_LeadDash__From_Converted_Lead__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Source__c</picklist>
+        <values>
+            <fullName>Hanger Configurator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revit Toolbar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Key_Product_Groups__c</picklist>
+        <values>
+            <fullName>Bollards %E2%80%93 High Security - other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Retractable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Safety%2FStorefront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards - High Security %E2%80%93 shallow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hostile Vehicle Mitigation %E2%80%93 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDU %E2%80%93 barbless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDU %E2%80%93 traditional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Coils</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Other %28cage%2C instabox%2C etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Panels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Key_Products_Groups__c</picklist>
+        <values>
+            <fullName>Bollards %E2%80%93 High Security - other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Retractable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards %E2%80%93 Safety%2FStorefront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bollards - High Security %E2%80%93 shallow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hostile Vehicle Mitigation %E2%80%93 Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDU %E2%80%93 barbless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDU %E2%80%93 traditional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Coils</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Other %28cage%2C instabox%2C etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Razor %E2%80%93 Panels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodge Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lost_Reason__c</picklist>
+        <values>
+            <fullName>Availability%2FLead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Abandoned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product does not meet spec%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Market__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food and Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power %26 Utility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanical_Funnel__c</picklist>
+        <values>
+            <fullName>Flexicon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MASSH-400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical - Value Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saflector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tectron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tectron - Value Add</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanical_Tracking__c</picklist>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tectron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Add Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metal_Framing_Cable_Mgt_Market__c</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metal_Framing_Cable_Mgt_Pipeline_Type__c</picklist>
+        <values>
+            <fullName>Conversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Product_Category__c</picklist>
+        <values>
+            <fullName>ECN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Konkore Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire Basket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Product__c</picklist>
+        <values>
+            <fullName>10 AWG Modular System %28ACS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20C 3in Profile %28Cope%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5in Glas Tray %28Cope%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armored PLFA %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brite Rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defender Fittings %28Powerstrut%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Device Assemblies %28ACS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaylords %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KoreFit Fittings %28Metal Framing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luminary Whips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MC Luminary Multizone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MC Quik Lite Plain %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pack %26 Roll %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance Flex %28AFC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power-Strut Defender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick Lock Connector With Double Bite Clip %28Konkore%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick-Latch for WB %28Cope%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screw On Liquid Tight Fittings %28Konkore%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super Kwik Couple Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universal Super Coupling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WB EMT Clip %28Cope%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_Disclosure_Agreement_Signed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Sub_Categories__c</picklist>
+        <values>
+            <fullName>Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party Sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Category_Multi_Select__c</picklist>
+        <values>
+            <fullName>ALUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiberglass Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDPE %28PVC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liquidtight %26 Flexible Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Supports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Coated Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Fab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire Basket</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Category__c</picklist>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPC Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Sub_Category__c</picklist>
+        <values>
+            <fullName>A53 Pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aluminum Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbed Tape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Ladder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Trays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Trunking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clamps and Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE BreathSaver %28Phenolic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE Elbows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE Hangers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE HazGaurd %28XW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence  Framework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSS Structural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Prime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC-Coated Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strut%2C Framing %26 Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tectron Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic Products %28Telespar%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire Basket Trays</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revenue_Range__c</picklist>
+        <values>
+            <fullName>%24250K-%24500K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24500K-%241M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2450K-%24250K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3C%2450K</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBU__c</picklist>
+        <values>
+            <fullName>Cable Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction and Prefab Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corrosion Resistant Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Cable and Flexible Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiberglass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDPE Pipe %26 Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Pipe %26 Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Conduit %26 ECN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sector__c</picklist>
+        <values>
+            <fullName>Buildings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data  Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segment__c</picklist>
+        <values>
+            <fullName>A-53 Service Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC - Consignments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antennas %2F Towers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto Aftermarket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barns %2F Stalls %2F Corrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barricades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boat Docks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bus - Frame %26 Interior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canopies %26 Shade Structures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cart Corrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carts %2F Hand Trucks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction - Residential %2F Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conveyor Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dairy Stalls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deck Structures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display Racks %2F Store Fixtures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excess Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabric Buildings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fabricators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farmstead Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frames %26 Awnings %28Not Tents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garment Conveyor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gates %2F Feeders %2F Kennels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Related Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grain Bins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenhouses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handrails %2F Balustrade%2F Stairway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heater Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horse %2F Cargo %2F Utility Trailer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housewares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing Columns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Bulk Containers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Shelving %2F Pallet Racks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irrigation Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juvenile Products %28Including Toys%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawn %26 Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marine Products %2F Boat Trailers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Buildings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Paint Booths</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mine Conveyors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modular Racks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Classification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ornamental Iron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Benches%2FTables%2FAmenities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Recreational Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Playground Sets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poultry Feeders %26 Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RV %26 Camper Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreational %2F Institutional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Sales - ASP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satellite Dish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scaffold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Centers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sporting Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Pallets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural %2F Building Supports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structurals %2F OEMs %2F Fabricators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar - City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar - County</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar - Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar - State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tractor-Trailer Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trampolines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trash Toters %2F Disposal Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Truck Tarp Frames %26 Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tube %26 Pipe Distributors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut Misc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Gas%2FElectric%2FSolar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vine%2FGrape Stakes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Brand__c</picklist>
+        <values>
+            <fullName>ACS%2FUni-Fab%2C Cii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC Cable Systems%2C Kaf-Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube %26 Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube %26 Conduit%2C Calbond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube %26 Conduit%2C Calbrite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube %26 Conduit%2C Calconduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube and Conduit%2C  Heritage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube and Conduit%2C  Heritage%2C Cor-Tek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cope%2C US Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Wire %26 Conduit%2C United Poly Systems%2C  Four Star Industries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE Composites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut%2C Powerstrut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Market__c</picklist>
+        <values>
+            <fullName>Agriculture %26 Irrigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amusement %26 Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assisted Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive %26 Charging Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridge %26 Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correctional Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Bev Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital%2FUrgent Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking Structure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petrochem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religious</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Building%2C Library%2C Dormitory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transmission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wind</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Stage__c</picklist>
+        <values>
+            <fullName>1%2E   Target Identification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E Due Diligence Underway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E Due Diligence Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E Due Diligence Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13%2E SPA-APA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14%2E Sign %26 Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%2E Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16%2E Town Hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17%2E Hand Over</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E   Early Stage Discussion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E   Cultivation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E   Non-Disclosure Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E   Confidential Information Memorandum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E   Financial Model %26 Synergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E   Indication of Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E   Management Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E   LOI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Vertical_Level_1__c</picklist>
+        <values>
+            <fullName>Battery Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Shore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rest of World</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South East Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wind</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Vertical_Level_2__c</picklist>
+        <values>
+            <fullName>Amazon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equinix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transaction_Type__c</picklist>
+        <values>
+            <fullName>Asset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Share</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redirect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Profile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volume</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vertical__c</picklist>
+        <values>
+            <fullName>Data Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Won_Reason__c</picklist>
+        <values>
+            <fullName>Availability%2FLead Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>sbaa__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Focused_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Focused Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBU__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ECN</fullName>
+                <default>false</default>
+                <label>ECN</label>
+            </value>
+            <value>
+                <fullName>PVC Fittings</fullName>
+                <default>false</default>
+                <label>PVC Fittings</label>
+            </value>
+            <value>
+                <fullName>Conduit &amp; Cable Fittings (Konkore)</fullName>
+                <default>false</default>
+                <label>Conduit &amp; Cable Fittings (Konkore)</label>
+            </value>
+            <value>
+                <fullName>Metal Framing Fittings</fullName>
+                <default>false</default>
+                <label>Metal Framing Fittings</label>
+            </value>
+            <value>
+                <fullName>Cable Tray</fullName>
+                <default>false</default>
+                <label>Cable Tray</label>
+            </value>
+            <value>
+                <fullName>Wire Basket</fullName>
+                <default>false</default>
+                <label>Wire Basket</label>
+            </value>
+            <value>
+                <fullName>Liquidtight Conduit</fullName>
+                <default>false</default>
+                <label>Liquidtight Conduit</label>
+            </value>
+            <value>
+                <fullName>Modular Power (ACS)</fullName>
+                <default>false</default>
+                <label>Modular Power (ACS)</label>
+            </value>
+            <value>
+                <fullName>Prefab Assemblies (ACS)</fullName>
+                <default>false</default>
+                <label>Prefab Assemblies (ACS)</label>
+            </value>
+            <value>
+                <fullName>Aluminum Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>Aluminum Conduit &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>PVC-Coated Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>PVC-Coated Conduit &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>Stainless Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>Stainless Conduit &amp; Fittings</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Cable Tray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cable Management</controllingFieldValue>
+            <valueName>Wire Basket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Framing</controllingFieldValue>
+            <valueName>Metal Framing Fittings</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_pct__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division__c ,
+&#39;CRC&#39; , Quote__r.Margin_Aluminum_Conduit_Fittings_Per__c,
+&#39;ALFITT&#39; , Quote__r.Margin_Conduit_Cable_Fittings__c,
+&#39;STEELCON / ECN&#39; , Quote__r.Margin_Steel_Conduit_ECN__c,
+&#39;AFC&#39; , Quote__r.Margin_ElectricalCableFlexConduit__c,
+&#39;MTLFRM&#39;, Quote__r.Margin_Metal_Framing__c,
+&#39;PPC&#39;, Quote__r.Margin_Plastic_Pipe_Conduit__c,
+NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Margin %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

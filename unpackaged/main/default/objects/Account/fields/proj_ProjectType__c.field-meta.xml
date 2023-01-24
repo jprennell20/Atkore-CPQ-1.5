@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>proj_ProjectType__c</fullName>
+    <description>Used to describe the project type Should only be available for Project Layout.</description>
+    <externalId>false</externalId>
+    <label>Project Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Build</fullName>
+                <default>false</default>
+                <label>New Build</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Renovation</fullName>
+                <default>false</default>
+                <label>Renovation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

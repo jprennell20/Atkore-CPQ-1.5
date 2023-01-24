@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Start_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The date that this project will start (not the close date of the opportunity). For example, if the products will not ship for many months after the opportunity is won, use this field</inlineHelpText>
+    <label>Project Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

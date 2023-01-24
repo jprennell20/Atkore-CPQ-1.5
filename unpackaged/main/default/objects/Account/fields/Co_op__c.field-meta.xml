@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Co_op__c</fullName>
+    <description>Co-op for which customer is a member</description>
+    <externalId>false</externalId>
+    <label>Co-op</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATCM</fullName>
+                <default>false</default>
+                <label>ATCM</label>
+            </value>
+            <value>
+                <fullName>ATCE MKTG</fullName>
+                <default>false</default>
+                <label>ATCE MKTG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

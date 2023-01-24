@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mechanical_Requires_Tons</fullName>
+    <active>false</active>
+    <description>Mechanical  Opportunity requires Tons</description>
+    <errorConditionFormula>AND(ISPICKVAL(Product_Category__c, &quot;Mechanical&quot;), OR(NOT(Expected_Tons__c&gt;0),ISBLANK(Expected_Tons__c)))</errorConditionFormula>
+    <errorDisplayField>Expected_Tons__c</errorDisplayField>
+    <errorMessage>Mechanical Opportunity requires Expected Tons</errorMessage>
+</ValidationRule>

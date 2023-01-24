@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Agent_Sales_Commission__c</fullName>
+    <externalId>false</externalId>
+    <formula>Agent_Sales_Commissions_Alum_Cond_Fitt__c +  Agent_Sales_Commissions_Cond_CableFit__c +  Agent_Sales_Commissions_ECFC__c +  Agent_Sales_Commissions_ECN__c +  Agent_Sales_Commissions_Metal_Framing__c +  Agent_Sales_Commissions_PVC_Conduit__c +  Agent_Sales_Commissions_PVC_FIttings__c +  Agent_Sales_Commissions_PVC_Water_Pipe__c +  Agent_Whse_Commissions_Steel_Conduit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Agent Sales Commission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

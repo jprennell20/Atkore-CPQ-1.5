@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MF_CM_Brand_Region_Market__c</fullName>
+    <description>Specify Metal Framing Cable Management Segment, Region, and Market</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify Metal Framing Cable Management Segment, Region, and Market</inlineHelpText>
+    <label>MF CM Brand Region Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>COPE Midwest Electrical</fullName>
+                <default>false</default>
+                <label>COPE Midwest Electrical</label>
+            </value>
+            <value>
+                <fullName>PS Midwest Electrical</fullName>
+                <default>false</default>
+                <label>PS Midwest Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI Midwest Electrical</fullName>
+                <default>false</default>
+                <label>UNI Midwest Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI Midwest Mechanical</fullName>
+                <default>false</default>
+                <label>UNI Midwest Mechanical</label>
+            </value>
+            <value>
+                <fullName>COPE East Electrical</fullName>
+                <default>false</default>
+                <label>COPE East Electrical</label>
+            </value>
+            <value>
+                <fullName>PS East Electrical</fullName>
+                <default>false</default>
+                <label>PS East Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI East Electrical</fullName>
+                <default>false</default>
+                <label>UNI East Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI East Mechanical</fullName>
+                <default>false</default>
+                <label>UNI East Mechanical</label>
+            </value>
+            <value>
+                <fullName>COPE South Electrical</fullName>
+                <default>false</default>
+                <label>COPE South Electrical</label>
+            </value>
+            <value>
+                <fullName>PS South Electrical</fullName>
+                <default>false</default>
+                <label>PS South Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI South Electrical</fullName>
+                <default>false</default>
+                <label>UNI South Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI South Mechanical</fullName>
+                <default>false</default>
+                <label>UNI South Mechanical</label>
+            </value>
+            <value>
+                <fullName>COPE West Electrical</fullName>
+                <default>false</default>
+                <label>COPE West Electrical</label>
+            </value>
+            <value>
+                <fullName>PS West Electrical</fullName>
+                <default>false</default>
+                <label>PS West Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI West Electrical</fullName>
+                <default>false</default>
+                <label>UNI West Electrical</label>
+            </value>
+            <value>
+                <fullName>UNI West Mechanical</fullName>
+                <default>false</default>
+                <label>UNI West Mechanical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

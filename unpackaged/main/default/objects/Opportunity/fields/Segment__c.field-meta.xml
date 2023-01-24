@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access Flooring</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Access Flooring</label>
+            </value>
+            <value>
+                <fullName>Furniture</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Furniture</label>
+            </value>
+            <value>
+                <fullName>Display Racks / Store Fixtures</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Display Racks / Store Fixtures</label>
+            </value>
+            <value>
+                <fullName>Greenhouses</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Greenhouses</label>
+            </value>
+            <value>
+                <fullName>Carports</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Carports</label>
+            </value>
+            <value>
+                <fullName>Metal Buildings</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Metal Buildings</label>
+            </value>
+            <value>
+                <fullName>Frames &amp; Awnings (Not Tents)</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Frames &amp; Awnings (Not Tents)</label>
+            </value>
+            <value>
+                <fullName>Housewares</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Housewares</label>
+            </value>
+            <value>
+                <fullName>Trash Toters / Disposal Equipment</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Trash Toters / Disposal Equipment</label>
+            </value>
+            <value>
+                <fullName>Scaffold</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Scaffold</label>
+            </value>
+            <value>
+                <fullName>Satellite Dish</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>Satellite Dish</label>
+            </value>
+            <value>
+                <fullName>Poultry Feeders &amp; Equipment</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Poultry Feeders &amp; Equipment</label>
+            </value>
+            <value>
+                <fullName>Carts / Hand Trucks</fullName>
+                <color>#2F5D85</color>
+                <default>false</default>
+                <label>Carts / Hand Trucks</label>
+            </value>
+            <value>
+                <fullName>Industrial Bulk Containers</fullName>
+                <color>#AFCADF</color>
+                <default>false</default>
+                <label>Industrial Bulk Containers</label>
+            </value>
+            <value>
+                <fullName>Industrial Shelving / Pallet Racks</fullName>
+                <color>#8F6429</color>
+                <default>false</default>
+                <label>Industrial Shelving / Pallet Racks</label>
+            </value>
+            <value>
+                <fullName>Conveyor Systems</fullName>
+                <color>#EFAE73</color>
+                <default>false</default>
+                <label>Conveyor Systems</label>
+            </value>
+            <value>
+                <fullName>Farmstead Equipment</fullName>
+                <color>#57F17C</color>
+                <default>false</default>
+                <label>Farmstead Equipment</label>
+            </value>
+            <value>
+                <fullName>Irrigation Equipment</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Irrigation Equipment</label>
+            </value>
+            <value>
+                <fullName>Lawn &amp; Garden</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Lawn &amp; Garden</label>
+            </value>
+            <value>
+                <fullName>Auto OEM</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Auto OEM</label>
+            </value>
+            <value>
+                <fullName>Auto Aftermarket</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Auto Aftermarket</label>
+            </value>
+            <value>
+                <fullName>RV &amp; Camper Parts</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>RV &amp; Camper Parts</label>
+            </value>
+            <value>
+                <fullName>Tractor-Trailer Accessories</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Tractor-Trailer Accessories</label>
+            </value>
+            <value>
+                <fullName>Juvenile Products (Including Toys)</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Juvenile Products (Including Toys)</label>
+            </value>
+            <value>
+                <fullName>Playground Sets</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Playground Sets</label>
+            </value>
+            <value>
+                <fullName>Unistrut Misc</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Unistrut Misc</label>
+            </value>
+            <value>
+                <fullName>Sign Post</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Sign Post</label>
+            </value>
+            <value>
+                <fullName>Sporting Goods</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>Sporting Goods</label>
+            </value>
+            <value>
+                <fullName>Canopies &amp; Shade Structures</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Canopies &amp; Shade Structures</label>
+            </value>
+            <value>
+                <fullName>Service Centers</fullName>
+                <color>#2F5D85</color>
+                <default>false</default>
+                <label>Service Centers</label>
+            </value>
+            <value>
+                <fullName>Tube &amp; Pipe Distributors</fullName>
+                <color>#AFCADF</color>
+                <default>false</default>
+                <label>Tube &amp; Pipe Distributors</label>
+            </value>
+            <value>
+                <fullName>Fabricators</fullName>
+                <color>#8F6429</color>
+                <default>false</default>
+                <label>Fabricators</label>
+            </value>
+            <value>
+                <fullName>Trampolines</fullName>
+                <color>#EFAE73</color>
+                <default>false</default>
+                <label>Trampolines</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <color>#57F17C</color>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>Metal Paint Booths</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Metal Paint Booths</label>
+            </value>
+            <value>
+                <fullName>Food Processing</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Food Processing</label>
+            </value>
+            <value>
+                <fullName>Outdoor Benches/Tables/Amenities</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Outdoor Benches/Tables/Amenities</label>
+            </value>
+            <value>
+                <fullName>Outdoor Recreational Furniture</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Outdoor Recreational Furniture</label>
+            </value>
+            <value>
+                <fullName>Recreational / Institutional</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Recreational / Institutional</label>
+            </value>
+            <value>
+                <fullName>Government Related Sales</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Government Related Sales</label>
+            </value>
+            <value>
+                <fullName>Handrails / Balustrade/ Stairway</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Handrails / Balustrade/ Stairway</label>
+            </value>
+            <value>
+                <fullName>Utilities - Gas/Electric/Solar</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Utilities - Gas/Electric/Solar</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Marine Products / Boat Trailers</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Marine Products / Boat Trailers</label>
+            </value>
+            <value>
+                <fullName>Vine/Grape Stakes</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>Vine/Grape Stakes</label>
+            </value>
+            <value>
+                <fullName>Garage Doors</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Garage Doors</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <color>#2F5D85</color>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Ornamental Iron</fullName>
+                <color>#AFCADF</color>
+                <default>false</default>
+                <label>Ornamental Iron</label>
+            </value>
+            <value>
+                <fullName>Structural / Building Supports</fullName>
+                <color>#8F6429</color>
+                <default>false</default>
+                <label>Structural / Building Supports</label>
+            </value>
+            <value>
+                <fullName>Excess Sales</fullName>
+                <color>#EFAE73</color>
+                <default>false</default>
+                <label>Excess Sales</label>
+            </value>
+            <value>
+                <fullName>Steel Pallets</fullName>
+                <color>#57F17C</color>
+                <default>false</default>
+                <label>Steel Pallets</label>
+            </value>
+            <value>
+                <fullName>Structurals / OEMs / Fabricators</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Structurals / OEMs / Fabricators</label>
+            </value>
+            <value>
+                <fullName>Retail Sales - ASP</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Retail Sales - ASP</label>
+            </value>
+            <value>
+                <fullName>Barns / Stalls / Corrals</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Barns / Stalls / Corrals</label>
+            </value>
+            <value>
+                <fullName>A-53 Service Center</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>A-53 Service Center</label>
+            </value>
+            <value>
+                <fullName>Construction - Residential / Commercial</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Construction - Residential / Commercial</label>
+            </value>
+            <value>
+                <fullName>Dairy Stalls</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Dairy Stalls</label>
+            </value>
+            <value>
+                <fullName>Horse / Cargo / Utility Trailer</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Horse / Cargo / Utility Trailer</label>
+            </value>
+            <value>
+                <fullName>Truck Tarp Frames &amp; Accessories</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Truck Tarp Frames &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Telespar - Distributor</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Telespar - Distributor</label>
+            </value>
+            <value>
+                <fullName>Telespar - City</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Telespar - City</label>
+            </value>
+            <value>
+                <fullName>Telespar - County</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>Telespar - County</label>
+            </value>
+            <value>
+                <fullName>Telespar - State</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Telespar - State</label>
+            </value>
+            <value>
+                <fullName>Telespar - Other</fullName>
+                <color>#2F5D85</color>
+                <default>false</default>
+                <label>Telespar - Other</label>
+            </value>
+            <value>
+                <fullName>Garment Conveyor</fullName>
+                <color>#AFCADF</color>
+                <default>false</default>
+                <label>Garment Conveyor</label>
+            </value>
+            <value>
+                <fullName>Grain Bins</fullName>
+                <color>#8F6429</color>
+                <default>false</default>
+                <label>Grain Bins</label>
+            </value>
+            <value>
+                <fullName>Boat Docks</fullName>
+                <color>#EFAE73</color>
+                <default>false</default>
+                <label>Boat Docks</label>
+            </value>
+            <value>
+                <fullName>Antennas / Towers</fullName>
+                <color>#57F17C</color>
+                <default>false</default>
+                <label>Antennas / Towers</label>
+            </value>
+            <value>
+                <fullName>Cart Corrals</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Cart Corrals</label>
+            </value>
+            <value>
+                <fullName>Modular Racks</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Modular Racks</label>
+            </value>
+            <value>
+                <fullName>Fabric Buildings</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Fabric Buildings</label>
+            </value>
+            <value>
+                <fullName>Mine Conveyors</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Mine Conveyors</label>
+            </value>
+            <value>
+                <fullName>Barricades</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Barricades</label>
+            </value>
+            <value>
+                <fullName>Heater Tube</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Heater Tube</label>
+            </value>
+            <value>
+                <fullName>Housing Columns</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Housing Columns</label>
+            </value>
+            <value>
+                <fullName>Gates / Feeders / Kennels</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Gates / Feeders / Kennels</label>
+            </value>
+            <value>
+                <fullName>Bus - Frame &amp; Interior</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Bus - Frame &amp; Interior</label>
+            </value>
+            <value>
+                <fullName>Deck Structures</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Deck Structures</label>
+            </value>
+            <value>
+                <fullName>ATC - Consignments</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>ATC - Consignments</label>
+            </value>
+            <value>
+                <fullName>No Classification</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>No Classification</label>
+            </value>
+            <value>
+                <fullName>Large_Mill_Solar</fullName>
+                <default>false</default>
+                <label>Large Mill - Solar</label>
+            </value>
+            <value>
+                <fullName>Large_Mill_Mechanical_Tube</fullName>
+                <default>false</default>
+                <label>Large Mill - Mechanical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

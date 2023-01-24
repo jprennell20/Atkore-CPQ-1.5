@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TC_ValueChain__c</fullName>
+    <description>Count of Account Team members that should be assigned based on Value Chain</description>
+    <externalId>false</externalId>
+    <formula>VC__r.SalesOrgCount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Count of Account Team members that should be assigned based on Value Chain</inlineHelpText>
+    <label>Team Count, Value Chain</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

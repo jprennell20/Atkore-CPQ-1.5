@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_At_least_one_ER_must_be_approved</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+            OR(
+                RecordType.DeveloperName = &quot;Flexicon&quot;,
+                RecordType.DeveloperName = &quot;Unistrut&quot;
+            ),
+            AND(
+                ISCHANGED(StageName),
+                TEXT(StageName) = &quot;Engineering Request Approved&quot;,
+                OR(
+                    Number_of_Approved_Engineering_Requests__c = 0,
+                    Number_of_Active_Engineering_Requests__c &gt; 0
+                )
+            )
+        )</errorConditionFormula>
+    <errorMessage>All Engineering Requests must be approved.</errorMessage>
+</ValidationRule>

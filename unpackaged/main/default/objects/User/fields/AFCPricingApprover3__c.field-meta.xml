@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AFCPricingApprover3__c</fullName>
+    <externalId>false</externalId>
+    <label>Quoting 3rd Level AFC Pricing Approver</label>
+    <relationshipName>AFCPricingApprover3</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

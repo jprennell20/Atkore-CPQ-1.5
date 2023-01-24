@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Freight_Terms__c</fullName>
+    <description>Filled by trigger based on value in Branding Logo Selector pick list. Copied from documents in Quoting Standard Freight Terms folder.</description>
+    <externalId>false</externalId>
+    <label>Standard Freight Terms</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

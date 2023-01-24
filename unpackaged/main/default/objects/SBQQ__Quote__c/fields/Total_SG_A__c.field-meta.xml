@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_SG_A__c</fullName>
+    <externalId>false</externalId>
+    <formula>SG_A_Amount_PVC_Water_Pipe__c + SG_A_Amount_Aluminum_and_Conduit_Fitting__c + SG_A_Amount_Conduit_Cable_Fittings__c + SG_A_Amount_ECN__c + SG_A_Amount_Electrical_Cable_Flexible__c + SG_A_Amount_Metal_Framing__c + SG_A_Amount_PVC_Conduit__c + SG_A_Amount_PVC_Fittings__c + SG_A_Amount_Steel_Conduit__c + SGA_ATC__c + SG_A_Amount_FRE__c + SG_A_Amount_Cable_Manage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total SG&amp;A</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

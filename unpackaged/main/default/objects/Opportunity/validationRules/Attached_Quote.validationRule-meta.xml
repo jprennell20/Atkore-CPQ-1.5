@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attached_Quote</fullName>
+    <active>true</active>
+    <description>Attached quote or link to opportunity</description>
+    <errorConditionFormula>AND
+(ISPICKVAL(StageName, &quot;Final Negotiation&quot;),
+OR
+( Attached_Quote_or_link__c = FALSE),
+   OR (RecordType.DeveloperName  = &quot;OEM_Opportunity&quot;))</errorConditionFormula>
+    <errorMessage>Attched Quote or Link must be checked before advancing the opportunity stage.</errorMessage>
+</ValidationRule>

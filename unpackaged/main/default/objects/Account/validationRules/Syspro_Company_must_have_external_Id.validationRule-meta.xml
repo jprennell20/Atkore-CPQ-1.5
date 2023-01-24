@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Syspro_Company_must_have_external_Id</fullName>
+    <active>true</active>
+    <description>Flexicon or Koreflex Companies of Syspro Type must have CommercientSF__Commercient_ArCustomerCode__c field populated</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &#39;Flexicon&#39;,
+        RecordType.DeveloperName = &#39;Koreflex&#39;
+    ),
+    ISBLANK(CommercientSF__Commercient_ArCustomerCode__c),
+    ISPICKVAL(Type__c, &#39;Syspro&#39;)
+)</errorConditionFormula>
+    <errorMessage>Company doesn&#39;t have Syspro External ID field populated.</errorMessage>
+</ValidationRule>

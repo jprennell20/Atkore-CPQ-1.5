@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quoted_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division__c ,
+&#39;CRC&#39; , Quote__r.Gross_Invoice_Aluminum_Conduit_Fittings__c,
+&#39;ALFITT&#39; , Quote__r.Gross_Invoice_Conduit_Cable_Fittings__c,
+&#39;STEELCON / ECN&#39; , Quote__r.Gross_Invoice_ECN__c + Quote__r.Gross_Invoice_Steel_Conduit__c,
+&#39;AFC&#39; , Quote__r.Gross_Invoice_ElectricalCableFlexConduit__c,
+&#39;MTLFRM&#39;, Quote__r.Gross_Invoice_Metal_Framing__c,
+&#39;PPC&#39;, Quote__r.Gross_Invoice_PVC_Conduit__c + Quote__r.Gross_Invoice_PVC_Fittings__c + Quote__r.Quoted_Total_PVC_Water_Pipe__c,
+NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quoted Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

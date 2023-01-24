@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Main_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Datacom / Telecom Wholesalers</fullName>
+                <default>false</default>
+                <label>Datacom / Telecom Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Datacom Contractors</fullName>
+                <default>false</default>
+                <label>Datacom Contractors</label>
+            </value>
+            <value>
+                <fullName>Electrical Contractors</fullName>
+                <default>false</default>
+                <label>Electrical Contractors</label>
+            </value>
+            <value>
+                <fullName>Electrical OEM Manufactures</fullName>
+                <default>false</default>
+                <label>Electrical OEM Manufactures</label>
+            </value>
+            <value>
+                <fullName>Electrical Wholesalers</fullName>
+                <default>false</default>
+                <label>Electrical Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Engineers &amp; Architects</fullName>
+                <default>false</default>
+                <label>Engineers &amp; Architects</label>
+            </value>
+            <value>
+                <fullName>Fence Contractors</fullName>
+                <default>false</default>
+                <label>Fence Contractors</label>
+            </value>
+            <value>
+                <fullName>Fence Wholesalers</fullName>
+                <default>false</default>
+                <label>Fence Wholesalers</label>
+            </value>
+            <value>
+                <fullName>General Construction Contractors</fullName>
+                <default>false</default>
+                <label>General Construction Contractors</label>
+            </value>
+            <value>
+                <fullName>Governmental Traffic Agencies (Department of Transportation)</fullName>
+                <default>false</default>
+                <label>Governmental Traffic Agencies (Department of Transportation)</label>
+            </value>
+            <value>
+                <fullName>HVAC Contractors</fullName>
+                <default>false</default>
+                <label>HVAC Contractors</label>
+            </value>
+            <value>
+                <fullName>HVAC Wholesalers</fullName>
+                <default>false</default>
+                <label>HVAC Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Hwy, Street &amp; Bridge Contractors</fullName>
+                <default>false</default>
+                <label>Hwy, Street &amp; Bridge Contractors</label>
+            </value>
+            <value>
+                <fullName>Mechanical Contractors</fullName>
+                <default>false</default>
+                <label>Mechanical Contractors</label>
+            </value>
+            <value>
+                <fullName>Mechanical Wholesalers</fullName>
+                <default>false</default>
+                <label>Mechanical Wholesalers</label>
+            </value>
+            <value>
+                <fullName>MRO Suppliers</fullName>
+                <default>false</default>
+                <label>MRO Suppliers</label>
+            </value>
+            <value>
+                <fullName>OEM Manufacturing</fullName>
+                <default>false</default>
+                <label>OEM Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Pipe, Valve, &amp; Fittings Wholesalers</fullName>
+                <default>false</default>
+                <label>Pipe, Valve, &amp; Fittings Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Plumbing Contractors</fullName>
+                <default>false</default>
+                <label>Plumbing Contractors</label>
+            </value>
+            <value>
+                <fullName>Plumbing Wholesalers</fullName>
+                <default>false</default>
+                <label>Plumbing Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Contractors</fullName>
+                <default>false</default>
+                <label>Sprinkler Contractors</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Wholesalers</fullName>
+                <default>false</default>
+                <label>Sprinkler Wholesalers</label>
+            </value>
+            <value>
+                <fullName>Steel Service Centers</fullName>
+                <default>false</default>
+                <label>Steel Service Centers</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Datacom / Telecom Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Datacom Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Electrical Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Electrical OEM Manufactures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Electrical Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Engineers &amp; Architects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Telespar</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>General Construction Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>MRO Suppliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Telespar</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Mechanical Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>OEM Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Steel Service Centers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>HVAC Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>HVAC Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Pipe, Valve, &amp; Fittings Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Plumbing Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Plumbing Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Sprinkler Contractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Standard Pipe</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Sprinkler Wholesalers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telespar</controllingFieldValue>
+            <valueName>Governmental Traffic Agencies (Department of Transportation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telespar</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <valueName>Hwy, Street &amp; Bridge Contractors</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost_ECFC__c</fullName>
+    <externalId>false</externalId>
+    <formula>Current_Cost_ElectricalCableFlexConduit__c + Total_Commissions_ECFC__c + Freight_Sub_Total_ECFC__c + SG_A_Amount_Electrical_Cable_Flexible__c + Cash_Discount_ECFC__c + Rebate_Sub_Total_ECFC__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cost (ECFC)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Commissions__c</fullName>
+    <externalId>false</externalId>
+    <formula>Total_Commissions_Aluminum_Conduit_Fit__c +  Total_Commissions_Conduit_Cable_Fit__c +  Total_Commissions_ECFC__c +  Total_Commissions_ECN__c +  Total_Commissions_Metal_Framing__c +  Total_Commissions_PVC_Conduit__c +  Total_Commissions_PVC_Conduit__c +  Total_Commissions_PVC_FIttings__c +  Total_Commissions_PVC_Water_Pipe__c +  Total_Commissions_Steel_Conduit__c +  Total_Commissions_FRE__c +  Total_Commissions_Cable_Manage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Commissions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metal_Framing_Cable_Mgt_Conversions</fullName>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Agent_Contact__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Metal_Framing_Cable_Mgt_Pipeline_Type__c</field>
+        <operation>equals</operation>
+        <value>Conversion</value>
+    </filters>
+    <label>Metal Framing &amp; Cable Mgt Conversions</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AtkoreInternational276081</role>
+        <role>AtkoreNorthAmerica</role>
+    </sharedTo>
+</ListView>

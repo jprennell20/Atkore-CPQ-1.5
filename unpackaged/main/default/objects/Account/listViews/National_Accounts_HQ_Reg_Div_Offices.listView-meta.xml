@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_Accounts_HQ_Reg_Div_Offices</fullName>
+    <columns>Customer_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SABAD1__c</columns>
+    <columns>SABAD2__c</columns>
+    <columns>SABCTY__c</columns>
+    <columns>SABST__c</columns>
+    <columns>SABZP__c</columns>
+    <columns>SACODE__c</columns>
+    <columns>SALV01__c</columns>
+    <columns>SALV02__c</columns>
+    <columns>SALV03__c</columns>
+    <columns>VC__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Customer_Number__c</field>
+        <operation>startsWith</operation>
+        <value>G</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Customer</value>
+    </filters>
+    <label>National Accounts HQ Reg Div Offices</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>AtkoreInternational276081</role>
+        <role>AtkoreNorthAmerica</role>
+    </sharedTo>
+</ListView>

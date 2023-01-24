@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_A_DC_View</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Actionability_Score__c</columns>
+    <columns>Attractiveness_Score__c</columns>
+    <columns>SBU__c</columns>
+    <columns>Short_Description__c</columns>
+    <columns>Status__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.M_A_Intermediary,Account.M_A_Target</value>
+    </filters>
+    <filters>
+        <field>Institution_Type__c</field>
+        <operation>equals</operation>
+        <value>Target</value>
+    </filters>
+    <label>M&amp;A DC View</label>
+    <sharedTo>
+        <group>M_A</group>
+    </sharedTo>
+</ListView>

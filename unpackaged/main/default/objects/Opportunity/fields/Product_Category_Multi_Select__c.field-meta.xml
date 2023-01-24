@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Category_Multi_Select__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Category (Multi Select)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ALUM</fullName>
+                <default>false</default>
+                <label>ALUM</label>
+            </value>
+            <value>
+                <fullName>Cable Management</fullName>
+                <default>false</default>
+                <label>Cable Management</label>
+            </value>
+            <value>
+                <fullName>Cable Tray</fullName>
+                <default>false</default>
+                <label>Cable Tray</label>
+            </value>
+            <value>
+                <fullName>Channel</fullName>
+                <default>false</default>
+                <label>Channel</label>
+            </value>
+            <value>
+                <fullName>ECN</fullName>
+                <default>false</default>
+                <label>ECN</label>
+            </value>
+            <value>
+                <fullName>Fiberglass Conduit</fullName>
+                <default>false</default>
+                <label>Fiberglass Conduit</label>
+            </value>
+            <value>
+                <fullName>Fittings</fullName>
+                <default>false</default>
+                <label>Fittings</label>
+            </value>
+            <value>
+                <fullName>HDPE (PVC)</fullName>
+                <default>false</default>
+                <label>HDPE (PVC)</label>
+            </value>
+            <value>
+                <fullName>Liquidtight &amp; Flexible Conduit</fullName>
+                <default>false</default>
+                <label>Liquidtight &amp; Flexible Conduit</label>
+            </value>
+            <value>
+                <fullName>MC</fullName>
+                <default>false</default>
+                <label>MC</label>
+            </value>
+            <value>
+                <fullName>Mechanical Supports</fullName>
+                <default>false</default>
+                <label>Mechanical Supports</label>
+            </value>
+            <value>
+                <fullName>Metal Framing</fullName>
+                <default>false</default>
+                <label>Metal Framing</label>
+            </value>
+            <value>
+                <fullName>Metal Framing Fittings</fullName>
+                <default>false</default>
+                <label>Metal Framing Fittings</label>
+            </value>
+            <value>
+                <fullName>MINI</fullName>
+                <default>false</default>
+                <label>MINI</label>
+            </value>
+            <value>
+                <fullName>Modular</fullName>
+                <default>false</default>
+                <label>Modular</label>
+            </value>
+            <value>
+                <fullName>Pre-Fab</fullName>
+                <default>false</default>
+                <label>Pre-Fab</label>
+            </value>
+            <value>
+                <fullName>Product Group</fullName>
+                <default>false</default>
+                <label>Product Group</label>
+            </value>
+            <value>
+                <fullName>PVC Coated Conduit</fullName>
+                <default>false</default>
+                <label>PVC Coated Conduit</label>
+            </value>
+            <value>
+                <fullName>PVC Conduit</fullName>
+                <default>false</default>
+                <label>PVC Conduit</label>
+            </value>
+            <value>
+                <fullName>PVC Fittings</fullName>
+                <default>false</default>
+                <label>PVC Fittings</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Conduit</fullName>
+                <default>false</default>
+                <label>Stainless Steel Conduit</label>
+            </value>
+            <value>
+                <fullName>Steel Conduit</fullName>
+                <default>false</default>
+                <label>Steel Conduit</label>
+            </value>
+            <value>
+                <fullName>Steel Fittings</fullName>
+                <default>false</default>
+                <label>Steel Fittings</label>
+            </value>
+            <value>
+                <fullName>SWCT</fullName>
+                <default>false</default>
+                <label>SWCT</label>
+            </value>
+            <value>
+                <fullName>UPVC</fullName>
+                <default>false</default>
+                <label>UPVC</label>
+            </value>
+            <value>
+                <fullName>Wire Basket</fullName>
+                <default>false</default>
+                <label>Wire Basket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

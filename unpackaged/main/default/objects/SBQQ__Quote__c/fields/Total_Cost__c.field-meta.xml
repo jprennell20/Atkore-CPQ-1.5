@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>Total_Cost_Metal_Framing__c + Total_Cost_Aluminum_Conduit_Fittings__c + Total_Cost_Conduit_Cable_Fittings__c + Total_Cost_ECN__c + Total_Cost_ECFC__c + Total_Cost_PVC_Conduit__c + Total_Cost_PVC_Fittings__c + Total_Cost_PVC_Water_Pipe__c + Total_Cost_Steel_Conduit__c + Total_Cost_FRE__c + Total_Cost_Cable_Manage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

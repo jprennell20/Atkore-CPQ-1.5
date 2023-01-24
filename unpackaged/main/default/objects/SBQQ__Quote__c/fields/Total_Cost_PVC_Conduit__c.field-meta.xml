@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost_PVC_Conduit__c</fullName>
+    <externalId>false</externalId>
+    <formula>Current_Cost_PVC_Conduit__c  + Total_Commissions_PVC_Conduit__c  + Freight_Sub_Total_PPC_Conduit__c  + SG_A_Amount_PVC_Conduit__c + Cash_Discount_PVC_Conduit__c + Rebate_Sub_Total_PVC_Conduit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cost (PVC Conduit)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Invalid_Default_Price_Book</fullName>
+    <active>true</active>
+    <description>Prevents Users from adding a Price Book to a Flexicon/Koreflex Account that doesn&#39;t begin with the prefix &quot;F-UK:&quot;</description>
+    <errorConditionFormula>AND(
+ OR(
+  RecordType.DeveloperName = &#39;Flexicon&#39;,
+  RecordType.DeveloperName = &#39;Koreflex&#39;
+ ),
+ NOT(
+  ISNULL(
+    Default_Price_Book__c
+  )
+ ),
+ NOT(
+  CONTAINS(
+    Default_Price_Book__r.Name, &quot;F-UK:&quot;
+  )
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Default_Price_Book__c</errorDisplayField>
+    <errorMessage>Default Price Book can only be a Price Book that begins with &quot;F-UK:&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <externalId>false</externalId>
+    <label>Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data  Centre</fullName>
+                <default>false</default>
+                <label>Data  Centre</label>
+            </value>
+            <value>
+                <fullName>Renewables</fullName>
+                <default>false</default>
+                <label>Renewables</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Industry</fullName>
+                <default>false</default>
+                <label>Industry</label>
+            </value>
+            <value>
+                <fullName>Stock</fullName>
+                <default>false</default>
+                <label>Stock</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Buildings</fullName>
+                <default>false</default>
+                <label>Buildings</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Commercial Market</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Commercial Market</label>
+            </value>
+            <value>
+                <fullName>Off-shore</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Off-shore</label>
+            </value>
+            <value>
+                <fullName>Power &amp; Energie</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Power &amp; Energie</label>
+            </value>
+            <value>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Public Sector</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

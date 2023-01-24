@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_NOT_update_Customer_name</fullName>
+    <active>true</active>
+    <description>Users cannot update Customer names on Account records</description>
+    <errorConditionFormula>(RecordTypeId=&#39;012U0000000Lqxg&#39;) &amp;&amp; (ISCHANGED(Name) || ISCHANGED(Customer_Number__c)) &amp;&amp;($User.ProfileId &lt;&gt; &#39;00eU0000000dWHE&#39;)</errorConditionFormula>
+    <errorMessage>Customer name/number can only be updated by an Atkore System Administrator</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Region_Must_Be_Provided</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( ISBLANK( BillingState ) , ISNULL( BillingState ) )</errorConditionFormula>
+    <errorDisplayField>BillingState</errorDisplayField>
+    <errorMessage>Please provide a Billing State/Province</errorMessage>
+</ValidationRule>

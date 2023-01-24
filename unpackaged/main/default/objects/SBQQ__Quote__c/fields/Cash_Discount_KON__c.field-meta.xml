@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cash_Discount_KON__c</fullName>
+    <description>Calculated cash discounts for KON line items. Check OVERRIDE to manually adjust this charge.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Calculated cash discounts for KON line items. Check OVERRIDE to manually adjust this charge.</inlineHelpText>
+    <label>Cash Discount (KON)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

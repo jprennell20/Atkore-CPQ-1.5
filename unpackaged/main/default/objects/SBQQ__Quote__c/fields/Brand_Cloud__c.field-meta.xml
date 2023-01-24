@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Cloud__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Allied Tube &amp; Conduit&quot; ), &quot;Allied Tube &amp; Conduit, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;AFC Cable Systems&quot; ), &quot;AFC Cable Systems, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Heritage Plastics&quot; ), &quot;Heritage Plastics, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Unistrut&quot; ), &quot;Unistrut, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Cope&quot; ), &quot;Cope, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;US Tray&quot; ), &quot;US Tray, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Calbrite&quot; ), &quot;Calbrite, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Calbond&quot; ), &quot;Calbond, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Kaf-tech&quot; ), &quot;Kaf-Tech, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Eastern Wire &amp; Conduit&quot; ), &quot;Eastern Wire &amp; Conduit, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;ACS/Uni-Fab&quot; ), &quot;ACS/Uni-Fab, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;CII&quot; ), &quot;CII, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Power-Strut&quot; ), &quot;Power-Strut, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Calconduit&quot; ), &quot;Calconduit, &quot;,null )&amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Flexicon&quot; ), &quot;Flexicon, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;FRE Composites&quot; ), &quot;FRE Composites, &quot;,null ) &amp;
+IF ( INCLUDES ( Agency__r.Agent_Sub_Brands__c , &quot;Queen City Plastics&quot; ), &quot;Queen City Plastics, &quot;,null )</formula>
+    <label>Brand Cloud</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

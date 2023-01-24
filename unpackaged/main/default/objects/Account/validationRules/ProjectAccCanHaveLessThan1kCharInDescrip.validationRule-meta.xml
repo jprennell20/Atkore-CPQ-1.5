@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectAccCanHaveLessThan1kCharInDescrip</fullName>
+    <active>true</active>
+    <description>Project Accounts can only have less than 1000 characters in the field Description</description>
+    <errorConditionFormula>AND(
+   RecordType.Name=&quot;Project&quot;,
+   LEN( Description ) &gt; 1000
+   )</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Description field can only have 1000 characters</errorMessage>
+</ValidationRule>

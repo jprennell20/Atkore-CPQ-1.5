@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGM_KON_Member__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This account is a member of an KON Price Group.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This account is a member of an KON Price Group.</inlineHelpText>
+    <label>Member of KON Price Group</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

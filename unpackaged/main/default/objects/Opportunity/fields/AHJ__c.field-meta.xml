@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHJ__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>AHJ (Authority Having Jurisdiction)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>AHJ (Authority Having Jurisdiction)</inlineHelpText>
+    <label>AHJ</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (AHJ)</relationshipLabel>
+    <relationshipName>AHJ</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

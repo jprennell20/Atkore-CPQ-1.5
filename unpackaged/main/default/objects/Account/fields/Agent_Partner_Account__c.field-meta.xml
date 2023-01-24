@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Partner_Account__c</fullName>
+    <description>Since the field IsPartner (Partner Account) is unavailable to custom formulas or sharing rule criteria, this field is needed to be able to create sharing rules around Partner Accounts.  Partner Accounts need to be visible so that Project Contacts can be created for Agents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Since the field IsPartner (Partner Account) is unavailable to custom formulas or sharing rule criteria, this field is needed to be able to create sharing rules around Partner Accounts.</inlineHelpText>
+    <label>Agent Partner Account</label>
+    <length>1</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

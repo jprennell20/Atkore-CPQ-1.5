@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_Large_End_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>tracking to specific large end user metric (Electrical)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify is opportunity is for Large End User for tracking.   If checked, the opportunity amount will roll-up to Large End User dashboard charts.</inlineHelpText>
+    <label>Electrical Large End User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

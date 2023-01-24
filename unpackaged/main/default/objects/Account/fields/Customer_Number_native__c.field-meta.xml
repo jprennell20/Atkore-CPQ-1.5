@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Number_native__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Native Customer Number to be displayed in reports and on screens. Customer number stripped of prefixed system code (External ID is prefixed with system code for uniqueness for AU, NZ, EK, and FR)</description>
+    <externalId>true</externalId>
+    <label>Customer Number (native)</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

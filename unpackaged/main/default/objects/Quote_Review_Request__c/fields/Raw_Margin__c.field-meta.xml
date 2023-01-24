@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raw_Margin__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division__c ,
+  &#39;CRC&#39; , NULL,
+  &#39;ALFITT&#39; , Quote__r.Raw_Margin_Conduit_Cable_Fittings__c ,
+  &#39;STEELCON / ECN&#39; , NULL,
+  &#39;AFC&#39; , NULL,
+  &#39;MTLFRM&#39;, NULL,
+  &#39;PPC&#39;, NULL,
+NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Raw Margin %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expires_on_TEST__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   NOT( ISBLANK( Override_Expiration__c)),
+   Override_Expiration__c,
+
+   BLANKVALUE( Approved_Date__c , TODAY() )
+   +
+   IF(
+     business_units__c = &#39;ECFC&#39;,
+     CASE( MOD( BLANKVALUE(Approved_Date__c, TODAY()) - DATE(1900,1,6),7) ,
+     0, 3,
+     1, 2,
+     2, 2,
+     3, 2,
+     4, 2,
+     5, 4,
+     6, 4,
+     2
+    ),
+   MAX(
+     7,
+     MIN(
+       BLANKVALUE(Days_to_Expire_Metal_Framing__c,999),
+       BLANKVALUE(Days_to_Expire_Steel_Conduit__c,999),
+       BLANKVALUE(Days_to_Expire_Alum_Conduit_Fittings__c,999),
+       BLANKVALUE(Days_to_Expire_Conduit_Cable_Fittings__c,999),
+       BLANKVALUE(Days_to_Expire_ECFC__c,999),
+       BLANKVALUE(Days_to_Expire_ECN__c,999),
+       BLANKVALUE(Days_to_Expire_PVC_Conduit__c,999),
+       BLANKVALUE(Days_to_Expire_PVC_Fittings__c,999),
+       BLANKVALUE(Days_to_Expire_PVC_Water_Pipe__c,999)
+     )
+   )
+
+  )
+)</formula>
+    <label>Expires on TEST</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

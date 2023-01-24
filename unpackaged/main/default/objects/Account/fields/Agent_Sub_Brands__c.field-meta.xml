@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Sub_Brands__c</fullName>
+    <externalId>false</externalId>
+    <label>Agent Sub-Brands</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heritage Plastics</fullName>
+                <default>false</default>
+                <label>Heritage Plastics</label>
+            </value>
+            <value>
+                <fullName>AFC Cable Systems</fullName>
+                <default>false</default>
+                <label>AFC Cable Systems</label>
+            </value>
+            <value>
+                <fullName>Allied Tube &amp; Conduit</fullName>
+                <default>false</default>
+                <label>Allied Tube &amp; Conduit</label>
+            </value>
+            <value>
+                <fullName>Calbond</fullName>
+                <default>false</default>
+                <label>Calbond</label>
+            </value>
+            <value>
+                <fullName>Calbrite</fullName>
+                <default>false</default>
+                <label>Calbrite</label>
+            </value>
+            <value>
+                <fullName>Kaf-tech</fullName>
+                <default>false</default>
+                <label>Kaf-Tech</label>
+            </value>
+            <value>
+                <fullName>Unistrut</fullName>
+                <default>false</default>
+                <label>Unistrut</label>
+            </value>
+            <value>
+                <fullName>Calconduit</fullName>
+                <default>false</default>
+                <label>Calconduit</label>
+            </value>
+            <value>
+                <fullName>Power-Strut</fullName>
+                <default>false</default>
+                <label>Power-Strut</label>
+            </value>
+            <value>
+                <fullName>Eastern Wire &amp; Conduit</fullName>
+                <default>false</default>
+                <label>Eastern Wire &amp; Conduit</label>
+            </value>
+            <value>
+                <fullName>ACS/Uni-Fab</fullName>
+                <default>false</default>
+                <label>ACS/Uni-Fab</label>
+            </value>
+            <value>
+                <fullName>CII</fullName>
+                <default>false</default>
+                <label>Cii</label>
+            </value>
+            <value>
+                <fullName>Cope</fullName>
+                <default>false</default>
+                <label>Cope</label>
+            </value>
+            <value>
+                <fullName>Flexicon</fullName>
+                <default>false</default>
+                <label>Flexicon</label>
+            </value>
+            <value>
+                <fullName>US Tray</fullName>
+                <default>false</default>
+                <label>US Tray</label>
+            </value>
+            <value>
+                <fullName>FRE Composites</fullName>
+                <default>false</default>
+                <label>FRE Composites</label>
+            </value>
+            <value>
+                <fullName>Queen City Plastics</fullName>
+                <default>false</default>
+                <label>Queen City Plastics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

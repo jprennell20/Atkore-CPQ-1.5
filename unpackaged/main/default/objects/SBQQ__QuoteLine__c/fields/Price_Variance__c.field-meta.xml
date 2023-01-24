@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Variance__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   (IF(
+Pricing_Type__c = &#39;Net&#39;,
+SBQQ__ListPrice__c,
+SBQQ__ListPrice__c * BLANKVALUE(Default_Multiplier__c , 1)
+)) = 0 , 
+   0,
+   ((IF(
+Pricing_Type__c = &#39;Net&#39;,
+SBQQ__ListPrice__c,
+SBQQ__ListPrice__c * BLANKVALUE(Default_Multiplier__c , 1)
+)) - SBQQ__SpecialPrice__c)
+                    /
+             (IF(
+Pricing_Type__c = &#39;Net&#39;,
+SBQQ__ListPrice__c,
+SBQQ__ListPrice__c * BLANKVALUE(Default_Multiplier__c , 1)
+))
+)</formula>
+    <label>Price Variance %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_Validate_Company_Record_Types</fullName>
+    <active>false</active>
+    <errorConditionFormula>AccountId != null &amp;&amp; ((RecordType.DeveloperName = &#39;Flexicon&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Flexicon&#39;) || (RecordType.DeveloperName = &#39;Koreflex&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Koreflex&#39;) || (RecordType.DeveloperName = &#39;Unistrut&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Unistrut&#39;)|| (RecordType.DeveloperName = &#39;Vergokan&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Vergokan&#39;)|| (RecordType.DeveloperName = &#39;Flexicon_Oz&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Flexicon_Australia&#39;)|| (RecordType.DeveloperName = &#39;Unistrut_NZ&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Unistrut_NZ&#39;)|| (RecordType.DeveloperName = &#39;Unistrut_Oz&#39; &amp;&amp; Account.RecordType.DeveloperName != &#39;Unistrut_Australia&#39;))</errorConditionFormula>
+    <errorMessage>The Opportunity record type must match the account record type. E.g. Only Unistrut accounts can be selected on Unistrut opportunities.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Expiration_Override</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISCHANGED( Override_Expiration__c ),
+  TEXT(SBQQ__Status__c) = &#39;Approved&#39;
+)</errorConditionFormula>
+    <errorDisplayField>Override_Expiration__c</errorDisplayField>
+    <errorMessage>You cannot change Override Expiration on an Approved Quote. Please Clone the Quote and make the necessary changes.</errorMessage>
+</ValidationRule>

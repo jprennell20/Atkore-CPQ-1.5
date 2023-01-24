@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UAT_Quotes</fullName>
+    <columns>NAME</columns>
+    <columns>Account_Name__c</columns>
+    <columns>SBQQ__Opportunity2__c</columns>
+    <columns>Agency__c</columns>
+    <columns>Agent_Contact_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SBQQ__Opportunity2__c</field>
+        <operation>contains</operation>
+        <value>Test</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>equals</operation>
+        <value>Coastal Cloud</value>
+    </filters>
+    <label>UAT Quotes</label>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBUL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES( Product_Category_Multi_Select__c , &quot;Liquidtight &amp; Flexible Conduit&quot;)|| INCLUDES(Product_Category_Multi_Select__c , &quot;MC&quot;), &quot;Electrical Cable and Flexible Conduit, &quot;, &quot;&quot;)
+&amp;
+IF(INCLUDES( Product_Category_Multi_Select__c , &quot;Cable Tray&quot;)|| INCLUDES(Product_Category_Multi_Select__c , &quot;Wire Basket&quot;), &quot;Cable Management, &quot;, &quot;&quot;)
+&amp;
+IF(INCLUDES( Product_Category_Multi_Select__c , &quot;Metal Framing&quot;)|| INCLUDES(Product_Category_Multi_Select__c , &quot;Metal Framing Fittings&quot;), &quot;Metal Framing, &quot;, &quot;&quot;)
+&amp;
+IF(INCLUDES( Product_Category_Multi_Select__c , &quot;PVC Conduit&quot;)|| INCLUDES(Product_Category_Multi_Select__c , &quot;PVC Fittings&quot;), &quot;PVC Pipe &amp; Conduit, &quot;, &quot;&quot;)
+&amp;
+IF(INCLUDES( Product_Category_Multi_Select__c , &quot;Steel Conduit&quot;)|| INCLUDES(Product_Category_Multi_Select__c , &quot;ECN&quot;), &quot;Steel Conduit &amp; ECN, &quot;, &quot;&quot;)
+&amp;
+IF( OR( INCLUDES(Product_Category_Multi_Select__c, &quot;Steel Fittings&quot;) , INCLUDES(Product_Category_Multi_Select__c, &quot;PVC Coated Conduit&quot;),  INCLUDES(Product_Category_Multi_Select__c,&quot;Stainless Steel Conduit&quot;)), &quot;Corrosion Resistant Conduit, &quot;, &quot;&quot;)
+&amp;
+ IF( INCLUDES( Product_Category_Multi_Select__c , &quot;HDPE (PVC)&quot;) ,&quot;HDPE Pipe &amp; Conduit, &quot;, &quot;&quot;)
+&amp;
+IF( INCLUDES( Product_Category_Multi_Select__c , &quot;Pre-Fab&quot;) ,&quot;Construction and Prefab Services, &quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SBU(s) (Long)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

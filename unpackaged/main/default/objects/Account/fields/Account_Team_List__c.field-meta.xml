@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Team_List__c</fullName>
+    <description>The list of account team members, separated by a semi-colon</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The list of account team members, separated by a semi-colon</inlineHelpText>
+    <label>Account Team List</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

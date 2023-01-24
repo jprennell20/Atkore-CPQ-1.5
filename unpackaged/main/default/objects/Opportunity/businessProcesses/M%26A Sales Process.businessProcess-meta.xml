@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M%26A Sales Process</fullName>
+    <description>Sales Process for M&amp;A Activity</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Acquired by Competitor</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Atkore Declined to Pursue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Due Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Process</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Post-Transaction %26 Integration</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospecting%2FCultivation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Transaction Phase</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

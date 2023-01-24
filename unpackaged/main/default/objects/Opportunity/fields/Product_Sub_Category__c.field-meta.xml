@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Product_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>A53 Pipe</fullName>
+                <default>false</default>
+                <label>A53 Pipe</label>
+            </value>
+            <value>
+                <fullName>AFC</fullName>
+                <default>false</default>
+                <label>AFC</label>
+            </value>
+            <value>
+                <fullName>Aluminum Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>Aluminum Conduit &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>Barbed Tape</fullName>
+                <default>false</default>
+                <label>Barbed Tape</label>
+            </value>
+            <value>
+                <fullName>BTC Products</fullName>
+                <default>false</default>
+                <label>BTC Products</label>
+            </value>
+            <value>
+                <fullName>Cable Ladder</fullName>
+                <default>false</default>
+                <label>Cable Ladder</label>
+            </value>
+            <value>
+                <fullName>Cables</fullName>
+                <default>false</default>
+                <label>Cables</label>
+            </value>
+            <value>
+                <fullName>Cable Trays</fullName>
+                <default>false</default>
+                <label>Cable Trays</label>
+            </value>
+            <value>
+                <fullName>Cable Trunking</fullName>
+                <default>false</default>
+                <label>Cable Trunking</label>
+            </value>
+            <value>
+                <fullName>Channel</fullName>
+                <default>false</default>
+                <label>Channel</label>
+            </value>
+            <value>
+                <fullName>Clamps and Accessories</fullName>
+                <default>false</default>
+                <label>Clamps and Accessories</label>
+            </value>
+            <value>
+                <fullName>Conduits</fullName>
+                <default>false</default>
+                <label>Conduits</label>
+            </value>
+            <value>
+                <fullName>Cope</fullName>
+                <default>false</default>
+                <label>Cope</label>
+            </value>
+            <value>
+                <fullName>Fence  Framework</fullName>
+                <default>false</default>
+                <label>Fence  Framework</label>
+            </value>
+            <value>
+                <fullName>Fittings</fullName>
+                <default>false</default>
+                <label>Fittings</label>
+            </value>
+            <value>
+                <fullName>Frame Fittings</fullName>
+                <default>false</default>
+                <label>Frame Fittings</label>
+            </value>
+            <value>
+                <fullName>FRE BreathSaver (Phenolic)</fullName>
+                <default>false</default>
+                <label>FRE BreathSaver (Phenolic)</label>
+            </value>
+            <value>
+                <fullName>FRE Conduit</fullName>
+                <default>false</default>
+                <label>FRE Conduit</label>
+            </value>
+            <value>
+                <fullName>FRE Elbows</fullName>
+                <default>false</default>
+                <label>FRE Elbows</label>
+            </value>
+            <value>
+                <fullName>FRE Hangers</fullName>
+                <default>false</default>
+                <label>FRE Hangers</label>
+            </value>
+            <value>
+                <fullName>FRE HazGaurd (XW)</fullName>
+                <default>false</default>
+                <label>FRE HazGaurd (XW)</label>
+            </value>
+            <value>
+                <fullName>HSS Structural</fullName>
+                <default>false</default>
+                <label>HSS Structural</label>
+            </value>
+            <value>
+                <fullName>Large Mill</fullName>
+                <default>false</default>
+                <label>Large Mill</label>
+            </value>
+            <value>
+                <fullName>Mechanical Tube</fullName>
+                <default>false</default>
+                <label>Mechanical Tube</label>
+            </value>
+            <value>
+                <fullName>Nato Barb</fullName>
+                <default>false</default>
+                <label>Nato Barb</label>
+            </value>
+            <value>
+                <fullName>Non Prime</fullName>
+                <default>false</default>
+                <label>Non Prime</label>
+            </value>
+            <value>
+                <fullName>Non-Rated Bollards</fullName>
+                <default>false</default>
+                <label>Non-Rated Bollards</label>
+            </value>
+            <value>
+                <fullName>Operable Bollards</fullName>
+                <default>false</default>
+                <label>Operable Bollards</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Bollards</fullName>
+                <default>false</default>
+                <label>Other Bollards</label>
+            </value>
+            <value>
+                <fullName>Other Razor/Fence Products</fullName>
+                <default>false</default>
+                <label>Other Razor/Fence Products</label>
+            </value>
+            <value>
+                <fullName>Panels</fullName>
+                <default>false</default>
+                <label>Panels</label>
+            </value>
+            <value>
+                <fullName>PVC-Coated Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>PVC-Coated Conduit &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>Rated Bollards</fullName>
+                <default>false</default>
+                <label>Rated Bollards</label>
+            </value>
+            <value>
+                <fullName>RDU Products</fullName>
+                <default>false</default>
+                <label>RDU Products</label>
+            </value>
+            <value>
+                <fullName>Removable Bollards</fullName>
+                <default>false</default>
+                <label>Removable Bollards</label>
+            </value>
+            <value>
+                <fullName>SafeSign</fullName>
+                <default>false</default>
+                <label>SafeSign</label>
+            </value>
+            <value>
+                <fullName>Shallow Bollards</fullName>
+                <default>false</default>
+                <label>Shallow Bollards</label>
+            </value>
+            <value>
+                <fullName>Stainless Conduit &amp; Fittings</fullName>
+                <default>false</default>
+                <label>Stainless Conduit &amp; Fittings</label>
+            </value>
+            <value>
+                <fullName>Strut, Framing &amp; Accessories</fullName>
+                <default>false</default>
+                <label>Strut, Framing &amp; Accessories</label>
+            </value>
+            <value>
+                <fullName>Supports</fullName>
+                <default>false</default>
+                <label>Supports</label>
+            </value>
+            <value>
+                <fullName>Tectron Tube</fullName>
+                <default>false</default>
+                <label>Tectron Tube</label>
+            </value>
+            <value>
+                <fullName>Traffic Safety Accessories</fullName>
+                <default>false</default>
+                <label>Telespar Accessories</label>
+            </value>
+            <value>
+                <fullName>Traffic Products (Telespar)</fullName>
+                <default>false</default>
+                <label>Traffic Products (Telespar)</label>
+            </value>
+            <value>
+                <fullName>Value Add (Mechanical)</fullName>
+                <default>false</default>
+                <label>Value Add (Mechanical)</label>
+            </value>
+            <value>
+                <fullName>Value Add (Tectron)</fullName>
+                <default>false</default>
+                <label>Value Add (Tectron)</label>
+            </value>
+            <value>
+                <fullName>Wire Basket Trays</fullName>
+                <default>false</default>
+                <label>Wire Basket Trays</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>AFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Aluminum Conduit &amp; Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Cable Ladder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Cables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Cable Trays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Channel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Clamps and Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Conduits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Cope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>PVC-Coated Conduit &amp; Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Stainless Conduit &amp; Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Strut, Framing &amp; Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Wire Basket Trays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>A53 Pipe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Barbed Tape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>BTC Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Cable Trunking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Fence  Framework</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Frame Fittings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Fiberglass</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>FRE BreathSaver (Phenolic)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Fiberglass</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>FRE Conduit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Fiberglass</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>FRE Elbows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Fiberglass</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>FRE Hangers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Fiberglass</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>FRE HazGaurd (XW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>HSS Structural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Mechanical Tube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Nato Barb</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Non Prime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Non-Rated Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Operable Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Other Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Other Razor/Fence Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Panels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Rated Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>RDU Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Removable Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Shallow Bollards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Supports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Tectron Tube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metal Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Kaftech</controllingFieldValue>
+            <controllingFieldValue>PPC Conduit &amp; Fittings</controllingFieldValue>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <controllingFieldValue>Unistrut</controllingFieldValue>
+            <controllingFieldValue>Heritage</controllingFieldValue>
+            <controllingFieldValue>Cable Solutions</controllingFieldValue>
+            <valueName>Traffic Products (Telespar)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Large Mill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>SafeSign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Traffic Safety Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Value Add (Mechanical)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mechanical</controllingFieldValue>
+            <valueName>Value Add (Tectron)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APAC_CANT_EDIT_SAP_ACCOUNTS</fullName>
+    <active>true</active>
+    <description>Stops sales users from editing accounts that are SAP and not End User type.</description>
+    <errorConditionFormula>AND(
+  OR(
+    RecordType.DeveloperName = &#39;Flexicon_Australia&#39;,
+RecordType.DeveloperName = &#39;Unistrut_Australia&#39;, RecordType.DeveloperName = &#39;Unistrut_NZ&#39;
+),NOT(ISNEW()), NOT(ISPICKVAL(Type__c, &quot;End User&quot;))
+,NOT($User.Username = &#39;integration.user.international@atkore.com.uat&#39;)
+)</errorConditionFormula>
+    <errorMessage>You can’t modify this type of Account record in Salesforce, only End User Account type.</errorMessage>
+</ValidationRule>

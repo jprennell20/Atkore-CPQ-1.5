@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_Invoices_Last_Month__c</fullName>
+    <description>Field used by Roll-up Helper to determine if account had Electrical sales in the prior month.  This field is then filtered in a Contact report to print a list of contacts for companies who had electrical sales last month.</description>
+    <externalId>false</externalId>
+    <label>Electrical Invoices Last Month</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

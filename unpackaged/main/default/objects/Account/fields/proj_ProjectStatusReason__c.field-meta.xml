@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>proj_ProjectStatusReason__c</fullName>
+    <description>Dependent on the Project Status Field. It is required by validation rule, depending on the Project Status Field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please provide the reason for the Project Status.</inlineHelpText>
+    <label>Project Status Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>proj_ProjectStatus__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+            <value>
+                <fullName>Competitor Brand</fullName>
+                <default>false</default>
+                <label>Competitor Brand</label>
+            </value>
+            <value>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+                <label>Abandoned</label>
+            </value>
+            <value>
+                <fullName>Postponed</fullName>
+                <default>false</default>
+                <label>Postponed</label>
+            </value>
+            <value>
+                <fullName>Partially Won</fullName>
+                <default>false</default>
+                <label>Partially Won</label>
+            </value>
+            <value>
+                <fullName>All Opportunities Won</fullName>
+                <default>false</default>
+                <label>All Opportunities Won</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>Regulatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>Postponed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Competitor Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lost</controllingFieldValue>
+            <valueName>Abandoned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Won</controllingFieldValue>
+            <valueName>Partially Won</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Won</controllingFieldValue>
+            <valueName>All Opportunities Won</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

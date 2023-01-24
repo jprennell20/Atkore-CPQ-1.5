@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fmla_Cable_Manage_Requires_Approval__c</fullName>
+    <externalId>false</externalId>
+    <formula>Quote__r.Cable_Manage_QLs_Needing_Approval__c &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Are There Any Cable Management Quote Lines Below Approval Threshold?</inlineHelpText>
+    <label>Cable Manage Requires Approval</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

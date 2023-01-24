@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Rebate__c</fullName>
+    <externalId>false</externalId>
+    <formula>Rebate_Sub_Total_AFC__c + Rebate_Sub_Total_Aluminum_Conduit_Fittin__c + Rebate_Sub_Total_ATC__c + Rebate_Sub_Total_Conduit_Cable_Fittings__c + Rebate_Sub_Total_CRC__c + Rebate_Sub_Total_ECFC__c + Rebate_Sub_Total_ECN__c	 + Rebate_Sub_Total_KON__c	 + Rebate_Sub_Total_Metal_Framing__c + Rebate_Sub_Total_PPC_Conduit__c + Rebate_Sub_Total_PPC_Fittings__c + Rebate_Sub_Total_PST__c + Rebate_Sub_Total_PVC_Conduit__c	 + Rebate_Sub_Total_PVC_Fittings__c	+ Rebate_Sub_Total_PVCWPIPE__c	 + Rebate_Sub_Total_Steel_Conduit__c	 + Rebate_Sub_Total_UNI__c + Rebate_Sub_Total_FRE__c + Rebate_Sub_Total_Cable_Manage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Rebate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

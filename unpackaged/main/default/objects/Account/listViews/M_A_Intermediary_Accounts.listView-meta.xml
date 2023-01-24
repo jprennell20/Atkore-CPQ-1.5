@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_A_Intermediary_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Institution_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.OWNERSHIP</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.M_A_Target</value>
+    </filters>
+    <label>M&amp;A Intermediaries &amp; Target Accounts</label>
+    <sharedTo>
+        <group>M_A</group>
+    </sharedTo>
+</ListView>

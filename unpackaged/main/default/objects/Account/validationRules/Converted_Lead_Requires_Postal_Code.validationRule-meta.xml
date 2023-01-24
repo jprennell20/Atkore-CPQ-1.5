@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Converted_Lead_Requires_Postal_Code</fullName>
+    <active>true</active>
+    <description>An account created from lead conversion requires a postal code if the account Billing Country is US</description>
+    <errorConditionFormula>AND( ConvertedLead__c , ISNULL( BillingPostalCode ) )</errorConditionFormula>
+    <errorDisplayField>BillingPostalCode</errorDisplayField>
+    <errorMessage>A postal code is required to save this account</errorMessage>
+</ValidationRule>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Supplier Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AL - Conduit</fullName>
+                <default>false</default>
+                <label>AL - Conduit</label>
+            </value>
+            <value>
+                <fullName>AL - Parts</fullName>
+                <default>false</default>
+                <label>AL - Parts</label>
+            </value>
+            <value>
+                <fullName>Aluminum</fullName>
+                <default>false</default>
+                <label>Aluminum</label>
+            </value>
+            <value>
+                <fullName>Cable Materials</fullName>
+                <default>false</default>
+                <label>Cable Materials</label>
+            </value>
+            <value>
+                <fullName>Cables</fullName>
+                <default>false</default>
+                <label>Cables</label>
+            </value>
+            <value>
+                <fullName>Coating Material</fullName>
+                <default>false</default>
+                <label>Coating Material</label>
+            </value>
+            <value>
+                <fullName>Cold Rolled Steel</fullName>
+                <default>false</default>
+                <label>Cold Rolled Steel</label>
+            </value>
+            <value>
+                <fullName>Components</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Components</label>
+            </value>
+            <value>
+                <fullName>Copper</fullName>
+                <default>false</default>
+                <label>Copper</label>
+            </value>
+            <value>
+                <fullName>Fiberglass Components</fullName>
+                <default>false</default>
+                <label>Fiberglass Components</label>
+            </value>
+            <value>
+                <fullName>Fiberglass Material</fullName>
+                <default>false</default>
+                <label>Fiberglass Material</label>
+            </value>
+            <value>
+                <fullName>Fiberglass Strut</fullName>
+                <default>false</default>
+                <label>Fiberglass Strut</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PE Wax</fullName>
+                <default>false</default>
+                <label>PE Wax</label>
+            </value>
+            <value>
+                <fullName>PVC</fullName>
+                <default>false</default>
+                <label>PVC</label>
+            </value>
+            <value>
+                <fullName>PVC Fittings</fullName>
+                <default>false</default>
+                <label>PVC Fittings</label>
+            </value>
+            <value>
+                <fullName>PVC Raw Materials</fullName>
+                <default>false</default>
+                <label>PVC Raw Materials</label>
+            </value>
+            <value>
+                <fullName>PVC Resin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PVC Resin</label>
+            </value>
+            <value>
+                <fullName>Raw Steel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Raw Steel</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel</fullName>
+                <default>false</default>
+                <label>Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Fittings/Hardware/Etc.</fullName>
+                <default>false</default>
+                <label>Stainless Steel Fittings/Hardware/Etc.</label>
+            </value>
+            <value>
+                <fullName>Steel - Fittings/Boxes/Hardware/Other</fullName>
+                <default>false</default>
+                <label>Steel - Fittings/Boxes/Hardware/Other</label>
+            </value>
+            <value>
+                <fullName>Steel - Flexible Hose</fullName>
+                <default>false</default>
+                <label>Steel - Flexible Hose</label>
+            </value>
+            <value>
+                <fullName>Steel - Galvanized</fullName>
+                <default>false</default>
+                <label>Steel - Galvanized</label>
+            </value>
+            <value>
+                <fullName>Steel - Hot Rolled</fullName>
+                <default>false</default>
+                <label>Steel - Hot Rolled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

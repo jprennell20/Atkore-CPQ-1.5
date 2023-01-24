@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Name</fullName>
+    <active>true</active>
+    <description>Contact required before advancing to Firm Quote.</description>
+    <errorConditionFormula>AND
+(ISPICKVAL(StageName, &quot;Firm Quote&quot;),
+   OR (RecordType.DeveloperName  = &quot;OEM_Opportunity&quot;),
+ISBLANK( Contact__c ))</errorConditionFormula>
+    <errorMessage>You must supply a Contact for the Opportunity before advancing to the next stage.</errorMessage>
+</ValidationRule>

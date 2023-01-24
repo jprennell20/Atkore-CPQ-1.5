@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.   Target Identification</fullName>
+                <default>false</default>
+                <label>1.   Target Identification</label>
+            </value>
+            <value>
+                <fullName>2.   Early Stage Discussion</fullName>
+                <default>false</default>
+                <label>2.   Early Stage Discussion</label>
+            </value>
+            <value>
+                <fullName>3.   Cultivation</fullName>
+                <default>false</default>
+                <label>3.   Cultivation</label>
+            </value>
+            <value>
+                <fullName>4.   Non-Disclosure Agreement</fullName>
+                <default>false</default>
+                <label>4.   Non-Disclosure Agreement</label>
+            </value>
+            <value>
+                <fullName>5.   Confidential Information Memorandum</fullName>
+                <default>false</default>
+                <label>5.   Confidential Information Memorandum</label>
+            </value>
+            <value>
+                <fullName>6.   Financial Model &amp; Synergy</fullName>
+                <default>false</default>
+                <label>6.   Financial Model &amp; Synergy</label>
+            </value>
+            <value>
+                <fullName>7.   Indication of Interest</fullName>
+                <default>false</default>
+                <label>7.   Indication of Interest</label>
+            </value>
+            <value>
+                <fullName>8.   Management Presentation</fullName>
+                <default>false</default>
+                <label>8.   Management Presentation</label>
+            </value>
+            <value>
+                <fullName>9.   LOI</fullName>
+                <default>false</default>
+                <label>9.   LOI</label>
+            </value>
+            <value>
+                <fullName>10. Due Diligence Underway</fullName>
+                <default>false</default>
+                <label>10. Due Diligence Underway</label>
+            </value>
+            <value>
+                <fullName>11. Due Diligence Review</fullName>
+                <default>false</default>
+                <label>11. Due Diligence Review</label>
+            </value>
+            <value>
+                <fullName>12. Due Diligence Report</fullName>
+                <default>false</default>
+                <label>12. Due Diligence Report</label>
+            </value>
+            <value>
+                <fullName>13. SPA-APA</fullName>
+                <default>false</default>
+                <label>13. SPA-APA</label>
+            </value>
+            <value>
+                <fullName>14. Sign &amp; Close</fullName>
+                <default>false</default>
+                <label>14. Sign &amp; Close</label>
+            </value>
+            <value>
+                <fullName>15. Communication</fullName>
+                <default>false</default>
+                <label>15. Communication</label>
+            </value>
+            <value>
+                <fullName>16. Town Hall</fullName>
+                <default>false</default>
+                <label>16. Town Hall</label>
+            </value>
+            <value>
+                <fullName>17. Hand Over</fullName>
+                <default>false</default>
+                <label>17. Hand Over</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>4.   Non-Disclosure Agreement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>5.   Confidential Information Memorandum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>6.   Financial Model &amp; Synergy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>7.   Indication of Interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>8.   Management Presentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Process</controllingFieldValue>
+            <valueName>9.   LOI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospecting/Cultivation</controllingFieldValue>
+            <valueName>1.   Target Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospecting/Cultivation</controllingFieldValue>
+            <valueName>2.   Early Stage Discussion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospecting/Cultivation</controllingFieldValue>
+            <valueName>3.   Cultivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Due Diligence</controllingFieldValue>
+            <valueName>10. Due Diligence Underway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Due Diligence</controllingFieldValue>
+            <valueName>11. Due Diligence Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Due Diligence</controllingFieldValue>
+            <valueName>12. Due Diligence Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Due Diligence</controllingFieldValue>
+            <valueName>13. SPA-APA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transaction Phase</controllingFieldValue>
+            <valueName>14. Sign &amp; Close</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transaction Phase</controllingFieldValue>
+            <valueName>15. Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transaction Phase</controllingFieldValue>
+            <valueName>16. Town Hall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transaction Phase</controllingFieldValue>
+            <valueName>17. Hand Over</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

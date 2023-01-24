@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_Primary_Product_Category__c</fullName>
+    <description>Please select the primary product category for this user. This field is used to determine LEAD and ACCOUNT assignments.
+Update 4/28/14:
+Used only in 2 reports for user adoption &quot;Contacts by Product Category&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the primary product category for this user.</inlineHelpText>
+    <label>SF Primary Product Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Fence</fullName>
+                <default>false</default>
+                <label>Fence</label>
+            </value>
+            <value>
+                <fullName>Heritage</fullName>
+                <default>false</default>
+                <label>Heritage</label>
+            </value>
+            <value>
+                <fullName>Kaftech</fullName>
+                <default>false</default>
+                <label>Kaftech</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+            <value>
+                <fullName>Standard Pipe</fullName>
+                <default>false</default>
+                <label>Standard Pipe</label>
+            </value>
+            <value>
+                <fullName>Telespar</fullName>
+                <default>false</default>
+                <label>Telespar</label>
+            </value>
+            <value>
+                <fullName>Unistrut</fullName>
+                <default>false</default>
+                <label>Unistrut</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

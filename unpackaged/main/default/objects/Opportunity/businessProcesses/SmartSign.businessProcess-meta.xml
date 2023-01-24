@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartSign</fullName>
+    <description>Telespar SmartSign Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Appointment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Close - Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Presentation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Face-to-Face Sales Call</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

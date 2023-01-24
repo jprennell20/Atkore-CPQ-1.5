@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_Approve_or_Closed_Lost_after_ER</fullName>
+    <active>false</active>
+    <description>If Engineering Request stage is selected - next selected stage has to be Engineering Request Approved or Closed Lost</description>
+    <errorConditionFormula>AND(
+            OR(
+                RecordType.DeveloperName = &quot;Flexicon&quot;
+            ),
+            AND(
+                ISPICKVAL( PRIORVALUE ( StageName), &quot;Engineering Request&quot;), 
+                AND(
+                    ISCHANGED(StageName),
+                    OR(
+                        ISPICKVAL(StageName, &quot;Quoting&quot;),
+                        ISPICKVAL(StageName, &quot;Quote Approved&quot;),
+                        ISPICKVAL(StageName, &quot;Closed Won&quot;)
+                    )
+                )
+            )
+        )</errorConditionFormula>
+    <errorMessage>Next stage must be either Engineering Request Approved or Closed - Lost</errorMessage>
+</ValidationRule>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Availability/Lead Time</fullName>
+                <default>false</default>
+                <label>Availability/Lead Time</label>
+            </value>
+            <value>
+                <fullName>Codes &amp; Standards</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Codes &amp; Standards</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Credit App</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Credit App</label>
+            </value>
+            <value>
+                <fullName>Customer Abandoned</fullName>
+                <default>false</default>
+                <label>Customer Abandoned</label>
+            </value>
+            <value>
+                <fullName>Data Clean Up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Data Clean Up</label>
+            </value>
+            <value>
+                <fullName>Declined to Bid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Declined to Bid</label>
+            </value>
+            <value>
+                <fullName>Different Distributor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Different Distributor</label>
+            </value>
+            <value>
+                <fullName>Lead Time</fullName>
+                <default>false</default>
+                <label>Lead Time/Product Delivery</label>
+            </value>
+            <value>
+                <fullName>Mill Min Req</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mill Min Req</label>
+            </value>
+            <value>
+                <fullName>Mill Prod</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mill Prod</label>
+            </value>
+            <value>
+                <fullName>No Mill Capacity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Mill Capacity</label>
+            </value>
+            <value>
+                <fullName>Normal Mill Lead Time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Normal Mill Lead Time</label>
+            </value>
+            <value>
+                <fullName>No Steel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Steel</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Delivery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product Delivery</label>
+            </value>
+            <value>
+                <fullName>Product does not meet spec.</fullName>
+                <default>false</default>
+                <label>Product does not meet spec.</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Rolling Pushed Out</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rolling Pushed Out</label>
+            </value>
+            <value>
+                <fullName>Specifications</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specifications</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Availability/Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Product does not meet spec.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Relationship</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

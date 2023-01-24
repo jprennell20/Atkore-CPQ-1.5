@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open</fullName>
+    <columns>NAME</columns>
+    <columns>Quote__c</columns>
+    <columns>Agency__c</columns>
+    <columns>Company_Name__c</columns>
+    <columns>Opportunity_Name__c</columns>
+    <columns>Pricing_Division__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Actions__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Approved</value>
+    </filters>
+    <label>My Open 1st Round Approvals</label>
+</ListView>

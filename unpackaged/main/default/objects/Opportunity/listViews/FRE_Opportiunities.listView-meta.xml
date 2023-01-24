@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FRE_Opportiunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Product_Sub_Category__c</columns>
+    <columns>Market__c</columns>
+    <columns>Comments__c</columns>
+    <columns>Agent__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Category__c</field>
+        <operation>equals</operation>
+        <value>Fiberglass</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>greaterThan</operation>
+        <value>10/31/2021</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Quote Sent</value>
+    </filters>
+    <label>FRE Opportunities</label>
+    <sharedTo>
+        <group>FRE_Fiberglass_Internal</group>
+    </sharedTo>
+</ListView>

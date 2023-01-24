@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Co_Load_Email_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  Co_Load_Quote__c = TRUE,
+  &#39;CO-LOAD&#39;,
+  NULL
+)</formula>
+    <label>Co-Load Email Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

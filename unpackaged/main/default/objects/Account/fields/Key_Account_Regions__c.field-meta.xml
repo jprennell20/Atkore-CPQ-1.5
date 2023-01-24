@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Account_Regions__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>In which Region does this Key Account exist</inlineHelpText>
+    <label>Key Account Regions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFC S. CENTRAL</fullName>
+                <default>false</default>
+                <label>AFC S. CENTRAL</label>
+            </value>
+            <value>
+                <fullName>AFC EAST</fullName>
+                <default>false</default>
+                <label>AFC EAST</label>
+            </value>
+            <value>
+                <fullName>AFC House</fullName>
+                <default>false</default>
+                <label>AFC House</label>
+            </value>
+            <value>
+                <fullName>AFC KAFTECH</fullName>
+                <default>false</default>
+                <label>AFC KAFTECH</label>
+            </value>
+            <value>
+                <fullName>AFC MIDWEST</fullName>
+                <default>false</default>
+                <label>AFC MIDWEST</label>
+            </value>
+            <value>
+                <fullName>AFC SOUTHEAST</fullName>
+                <default>false</default>
+                <label>AFC SOUTHEAST</label>
+            </value>
+            <value>
+                <fullName>AFC WEST</fullName>
+                <default>false</default>
+                <label>AFC WEST</label>
+            </value>
+            <value>
+                <fullName>ATC EAST</fullName>
+                <default>false</default>
+                <label>ATC EAST</label>
+            </value>
+            <value>
+                <fullName>ATC HOUSE</fullName>
+                <default>false</default>
+                <label>ATC HOUSE</label>
+            </value>
+            <value>
+                <fullName>ATC MIDWEST</fullName>
+                <default>false</default>
+                <label>ATC MIDWEST</label>
+            </value>
+            <value>
+                <fullName>ATC S. CENTRAL</fullName>
+                <default>false</default>
+                <label>ATC S. CENTRAL</label>
+            </value>
+            <value>
+                <fullName>ATC SOUTHEAST</fullName>
+                <default>false</default>
+                <label>ATC SOUTHEAST</label>
+            </value>
+            <value>
+                <fullName>ATC WEST</fullName>
+                <default>false</default>
+                <label>ATC WEST</label>
+            </value>
+            <value>
+                <fullName>Barbed Tape</fullName>
+                <default>false</default>
+                <label>Barbed Tape</label>
+            </value>
+            <value>
+                <fullName>Fence Midwest</fullName>
+                <default>false</default>
+                <label>Fence Midwest</label>
+            </value>
+            <value>
+                <fullName>Fence Northeast</fullName>
+                <default>false</default>
+                <label>Fence Northeast</label>
+            </value>
+            <value>
+                <fullName>Fence Ohio Valley</fullName>
+                <default>false</default>
+                <label>Fence Ohio Valley</label>
+            </value>
+            <value>
+                <fullName>Fence Southeast</fullName>
+                <default>false</default>
+                <label>Fence Southeast</label>
+            </value>
+            <value>
+                <fullName>Fence West</fullName>
+                <default>false</default>
+                <label>Fence West</label>
+            </value>
+            <value>
+                <fullName>Mechanical 1</fullName>
+                <default>false</default>
+                <label>Mechanical 1</label>
+            </value>
+            <value>
+                <fullName>Mechanical 2</fullName>
+                <default>false</default>
+                <label>Mechanical 2</label>
+            </value>
+            <value>
+                <fullName>Mechanical 4</fullName>
+                <default>false</default>
+                <label>Mechanical 4</label>
+            </value>
+            <value>
+                <fullName>Mechanical 5</fullName>
+                <default>false</default>
+                <label>Mechanical 5</label>
+            </value>
+            <value>
+                <fullName>Mechanical 6</fullName>
+                <default>false</default>
+                <label>Mechanical 6</label>
+            </value>
+            <value>
+                <fullName>Mechanical 8</fullName>
+                <default>false</default>
+                <label>Mechanical 8</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Latin America</fullName>
+                <default>false</default>
+                <label>Sprinkler Latin America</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Midwest</fullName>
+                <default>false</default>
+                <label>Sprinkler Midwest</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Northeast</fullName>
+                <default>false</default>
+                <label>Sprinkler Northeast</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Ohio Valley</fullName>
+                <default>false</default>
+                <label>Sprinkler Ohio Valley</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Southeast</fullName>
+                <default>false</default>
+                <label>Sprinkler Southeast</label>
+            </value>
+            <value>
+                <fullName>Sprinkler West</fullName>
+                <default>false</default>
+                <label>Sprinkler West</label>
+            </value>
+            <value>
+                <fullName>Telespar East</fullName>
+                <default>false</default>
+                <label>Telespar East</label>
+            </value>
+            <value>
+                <fullName>Telespar National</fullName>
+                <default>false</default>
+                <label>Telespar National</label>
+            </value>
+            <value>
+                <fullName>Telespar South</fullName>
+                <default>false</default>
+                <label>Telespar South</label>
+            </value>
+            <value>
+                <fullName>Telespar Southeast</fullName>
+                <default>false</default>
+                <label>Telespar Southeast</label>
+            </value>
+            <value>
+                <fullName>Telespar West</fullName>
+                <default>false</default>
+                <label>Telespar West</label>
+            </value>
+            <value>
+                <fullName>TJC EAST</fullName>
+                <default>false</default>
+                <label>TJC EAST</label>
+            </value>
+            <value>
+                <fullName>TJC MIDWEST</fullName>
+                <default>false</default>
+                <label>TJC MIDWEST</label>
+            </value>
+            <value>
+                <fullName>TJC SOUTHWEST</fullName>
+                <default>false</default>
+                <label>TJC SOUTHWEST</label>
+            </value>
+            <value>
+                <fullName>TJC WEST</fullName>
+                <default>false</default>
+                <label>TJC WEST</label>
+            </value>
+            <value>
+                <fullName>UNI EAST</fullName>
+                <default>false</default>
+                <label>UNI EAST</label>
+            </value>
+            <value>
+                <fullName>UNI MIDWEST</fullName>
+                <default>false</default>
+                <label>UNI MIDWEST</label>
+            </value>
+            <value>
+                <fullName>UNI SOUTH</fullName>
+                <default>false</default>
+                <label>UNI SOUTH</label>
+            </value>
+            <value>
+                <fullName>UNI WEST</fullName>
+                <default>false</default>
+                <label>UNI WEST</label>
+            </value>
+            <value>
+                <fullName>CANADA</fullName>
+                <default>false</default>
+                <label>CANADA</label>
+            </value>
+            <value>
+                <fullName>NAED House</fullName>
+                <default>false</default>
+                <label>NAED House</label>
+            </value>
+            <value>
+                <fullName>NAED Canada</fullName>
+                <default>false</default>
+                <label>NAED Canada</label>
+            </value>
+            <value>
+                <fullName>NAED Export</fullName>
+                <default>false</default>
+                <label>NAED Export</label>
+            </value>
+            <value>
+                <fullName>NAED Retail</fullName>
+                <default>false</default>
+                <label>NAED Retail</label>
+            </value>
+            <value>
+                <fullName>NAED West</fullName>
+                <default>false</default>
+                <label>NAED West</label>
+            </value>
+            <value>
+                <fullName>NAED East</fullName>
+                <default>false</default>
+                <label>NAED East</label>
+            </value>
+            <value>
+                <fullName>NAED South Central</fullName>
+                <default>false</default>
+                <label>NAED South Central</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

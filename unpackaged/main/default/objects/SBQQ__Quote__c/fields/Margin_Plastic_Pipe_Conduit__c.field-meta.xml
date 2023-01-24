@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_Plastic_Pipe_Conduit__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (  
+
+(Gross_Invoice_PVC_Conduit__c + Gross_Invoice_PVC_Fittings__c)  = 0,0,
+
+
+( (Gross_Invoice_PVC_Conduit__c + Gross_Invoice_PVC_Fittings__c)-(Total_Cost_PVC_Conduit__c + Total_Cost_PVC_Fittings__c ) )
+                                                  /
+                    (Gross_Invoice_PVC_Conduit__c + Gross_Invoice_PVC_Fittings__c)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Margin Plastic Pipe and Conduit (PPC)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

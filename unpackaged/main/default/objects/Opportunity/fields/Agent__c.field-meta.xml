@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>lookup to agent specified on opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select &quot;Partner User&quot; before searching for Agent Name</inlineHelpText>
+    <label>Agent</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not exist or does not match filter criteria (AGENT)</errorMessage>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>contains</operation>
+            <value>Atkore Agent Community</value>
+        </filterItems>
+        <filterItems>
+            <field>User.Contact.Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>AgentOpportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Must_Greater_than_Zero</fullName>
+    <active>false</active>
+    <description>Deactivated because changing sync from one quote to another causes the opportunity to briefly be saved with an amount of 0. That trips this validation error which terminates the sync switch operation.</description>
+    <errorConditionFormula>NOT( Amount &gt; 0)</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>Amount must be greater than zero</errorMessage>
+</ValidationRule>

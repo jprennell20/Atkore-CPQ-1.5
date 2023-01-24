@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Account_Agent_Name__c</fullName>
+    <description>agent name for key account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>agent name for key account</inlineHelpText>
+    <label>Key Account Agent Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

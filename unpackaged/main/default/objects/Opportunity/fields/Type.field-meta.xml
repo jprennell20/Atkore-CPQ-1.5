@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText>New Business- never done business 
+Volume- volume change on current business
+New Product- add new product
+Stock Profile- new start-up incentive- DISTRIBUTORS ONLY
+Redirect- move from one product to another
+Existing Business- on-going business/add on</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+</CustomField>

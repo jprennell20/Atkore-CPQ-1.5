@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VERG_No_Name_Change</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( PRIORVALUE(Name) != Name, RecordType.Name = &quot;Vergokan&quot;, $User.LastName != &#39;Integration User&#39; )</errorConditionFormula>
+    <errorMessage>Vergokan Company names cannot be changed as they are created and updated from SAP.</errorMessage>
+</ValidationRule>

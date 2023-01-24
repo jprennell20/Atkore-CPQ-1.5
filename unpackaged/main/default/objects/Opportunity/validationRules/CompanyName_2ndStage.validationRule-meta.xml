@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyName_2ndStage</fullName>
+    <active>true</active>
+    <description>Direct Sales (OEM) opportunities are allowed to not have a company name in the first 2 stages, but no further.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName , &quot;Negotiation / Budget&quot;),
+ ISBLANK(AccountId))</errorConditionFormula>
+    <errorMessage>You must provide a Company name to advance to the next stage.</errorMessage>
+</ValidationRule>

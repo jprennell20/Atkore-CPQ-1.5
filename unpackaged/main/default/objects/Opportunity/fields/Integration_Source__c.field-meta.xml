@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Source__c</fullName>
+    <description>Used for records inserted by integrations such as the Revit Toolbar and Hanger Configurator.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for records inserted by integrations such as the Revit Toolbar and Hanger Configurator.</inlineHelpText>
+    <label>Integration Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Hanger Configurator</fullName>
+                <default>false</default>
+                <label>Hanger Configurator</label>
+            </value>
+            <value>
+                <fullName>Revit Toolbar</fullName>
+                <default>false</default>
+                <label>Revit Toolbar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UNI_Prevent_Create_When_Account_Inactive</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				ISNEW(), 
+				OR(
+								RecordType.DeveloperName == &quot;Unistrut&quot; ||
+								RecordType.DeveloperName == &quot;Unistrut_Export&quot; || RecordType.DeveloperName = &quot;Flexicon_Oz&quot; || RecordType.DeveloperName = &quot;Unistrut_Oz&quot; || RecordType.DeveloperName = &quot;Unistrut_NZ&quot;
+				),
+    NOT(Account.Active__c), 
+				NOT(Ignore_Validation_Rules__c)
+)</errorConditionFormula>
+    <errorMessage>Creating an Opportunity is not allowed when the parent Account is not active.</errorMessage>
+</ValidationRule>

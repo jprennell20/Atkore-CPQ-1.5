@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oppty_Lost__c</fullName>
+    <description>for use in reporting</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(StageName, &quot;Closed Lost - Codes and Standards&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Price&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Product Delivery&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Relationship&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Specifications&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Other&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - No Steel&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Lead Time&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Mill Min Req&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Credit App&quot;),
+      ISPICKVAL(StageName, &quot;Closed Lost - Mill Prod&quot;),
+      ISPICKVAL(StageName, &quot;Closed Declined to Bid&quot;)), 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Oppty Lost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

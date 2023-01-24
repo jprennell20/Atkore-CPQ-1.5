@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Range__c</fullName>
+    <description>Please select the revenue range for this opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the revenue range for this opportunity</inlineHelpText>
+    <label>Revenue Range</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt;$50K</fullName>
+                <default>false</default>
+                <label>&lt;$50K</label>
+            </value>
+            <value>
+                <fullName>$50K-$250K</fullName>
+                <default>false</default>
+                <label>$50K-$250K</label>
+            </value>
+            <value>
+                <fullName>$250K-$500K</fullName>
+                <default>false</default>
+                <label>$250K-$500K</label>
+            </value>
+            <value>
+                <fullName>$500K-$1M</fullName>
+                <default>false</default>
+                <label>$500K+</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

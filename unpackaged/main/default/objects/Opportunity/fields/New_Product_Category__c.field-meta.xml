@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Product_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>New Product Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Konkore Fittings</fullName>
+                <default>false</default>
+                <label>Konkore Fittings</label>
+            </value>
+            <value>
+                <fullName>ECN</fullName>
+                <default>false</default>
+                <label>ECN</label>
+            </value>
+            <value>
+                <fullName>PVC Fittings</fullName>
+                <default>false</default>
+                <label>PVC Fittings</label>
+            </value>
+            <value>
+                <fullName>Wire Basket</fullName>
+                <default>false</default>
+                <label>Cable Tray/Wire Basket</label>
+            </value>
+            <value>
+                <fullName>Metal Framing</fullName>
+                <default>false</default>
+                <label>Metal Framing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

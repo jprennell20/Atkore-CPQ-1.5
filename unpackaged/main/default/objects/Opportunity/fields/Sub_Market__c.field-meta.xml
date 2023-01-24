@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Market__c</fullName>
+    <description>A dependent picklist based on the selection of the Market</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the Sub-Market of this opportunity</inlineHelpText>
+    <label>Sub Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Market__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agriculture &amp; Irrigation</fullName>
+                <default>false</default>
+                <label>Agriculture &amp; Irrigation</label>
+            </value>
+            <value>
+                <fullName>Airport</fullName>
+                <default>false</default>
+                <label>Airport</label>
+            </value>
+            <value>
+                <fullName>Amusement &amp; Recreation</fullName>
+                <default>false</default>
+                <label>Amusement &amp; Recreation</label>
+            </value>
+            <value>
+                <fullName>Assisted Living</fullName>
+                <default>false</default>
+                <label>Assisted Living</label>
+            </value>
+            <value>
+                <fullName>Automotive &amp; Charging Station</fullName>
+                <default>false</default>
+                <label>Automotive &amp; Charging Station</label>
+            </value>
+            <value>
+                <fullName>Bank</fullName>
+                <default>false</default>
+                <label>Bank</label>
+            </value>
+            <value>
+                <fullName>Bridge &amp; Street</fullName>
+                <default>false</default>
+                <label>Bridge &amp; Street</label>
+            </value>
+            <value>
+                <fullName>Colocation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Colocation</label>
+            </value>
+            <value>
+                <fullName>Correctional Facility</fullName>
+                <default>false</default>
+                <label>Correctional Facility</label>
+            </value>
+            <value>
+                <fullName>Distribution</fullName>
+                <default>false</default>
+                <label>Distribution</label>
+            </value>
+            <value>
+                <fullName>Edge</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Edge</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Bev Manufacturing</fullName>
+                <default>false</default>
+                <label>Food &amp; Bev Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Hospital</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hospital</label>
+            </value>
+            <value>
+                <fullName>Hospital/Urgent Care</fullName>
+                <default>false</default>
+                <label>Hospital/Urgent Care</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Hyperscale</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hyperscale</label>
+            </value>
+            <value>
+                <fullName>Large Mill</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Large Mill</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Marine</fullName>
+                <default>false</default>
+                <label>Marine</label>
+            </value>
+            <value>
+                <fullName>Medical Office</fullName>
+                <default>false</default>
+                <label>Medical Office</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Mixed Use</fullName>
+                <default>false</default>
+                <label>Mixed Use</label>
+            </value>
+            <value>
+                <fullName>Multi-Family</fullName>
+                <default>false</default>
+                <label>Multi-Family</label>
+            </value>
+            <value>
+                <fullName>Non-Military</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Military</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Parking Structure</fullName>
+                <default>false</default>
+                <label>Parking Structure</label>
+            </value>
+            <value>
+                <fullName>Petrochem</fullName>
+                <default>false</default>
+                <label>Petrochem</label>
+            </value>
+            <value>
+                <fullName>Power Plant</fullName>
+                <default>false</default>
+                <label>Power Plant</label>
+            </value>
+            <value>
+                <fullName>Public Building</fullName>
+                <default>false</default>
+                <label>Public Building</label>
+            </value>
+            <value>
+                <fullName>Rail</fullName>
+                <default>false</default>
+                <label>Rail</label>
+            </value>
+            <value>
+                <fullName>Religious</fullName>
+                <default>false</default>
+                <label>Religious</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Retail Store</fullName>
+                <default>false</default>
+                <label>Retail Store</label>
+            </value>
+            <value>
+                <fullName>School Building, Library, Dormitory</fullName>
+                <default>false</default>
+                <label>School Building, Library, Dormitory</label>
+            </value>
+            <value>
+                <fullName>Single Family</fullName>
+                <default>false</default>
+                <label>Single Family</label>
+            </value>
+            <value>
+                <fullName>Solar</fullName>
+                <default>false</default>
+                <label>Solar</label>
+            </value>
+            <value>
+                <fullName>Transmission</fullName>
+                <default>false</default>
+                <label>Transmission</label>
+            </value>
+            <value>
+                <fullName>Urgent Care &amp; Ambulatory Surgery Center</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Urgent Care &amp; Ambulatory Surgery Center</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>Water Treatment</fullName>
+                <default>false</default>
+                <label>Water Treatment</label>
+            </value>
+            <value>
+                <fullName>Wind</fullName>
+                <default>false</default>
+                <label>Wind</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Data Center</controllingFieldValue>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Assisted Living</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Hospital/Urgent Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Medical Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <valueName>Distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <valueName>Power Plant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <valueName>Solar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <valueName>Transmission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power &amp; Utility</controllingFieldValue>
+            <valueName>Wind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Hotel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Mixed Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Parking Structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Restaurant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Retail Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Warehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Food &amp; Bev Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Oil &amp; Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Petrochem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Industrial</controllingFieldValue>
+            <valueName>Water Treatment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Agriculture &amp; Irrigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Amusement &amp; Recreation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Correctional Facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Public Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Religious</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>School Building, Library, Dormitory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <valueName>Airport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <valueName>Automotive &amp; Charging Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <valueName>Bridge &amp; Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <valueName>Marine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infrastructure</controllingFieldValue>
+            <valueName>Rail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Multi-Family</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Single Family</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

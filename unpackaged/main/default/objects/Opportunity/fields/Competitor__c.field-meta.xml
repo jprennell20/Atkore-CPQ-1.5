@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <externalId>false</externalId>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AK Tube</fullName>
+                <default>false</default>
+                <label>AK Tube</label>
+            </value>
+            <value>
+                <fullName>American Tube &amp; Pipe</fullName>
+                <default>false</default>
+                <label>American Tube &amp; Pipe</label>
+            </value>
+            <value>
+                <fullName>Arcelor Mittal</fullName>
+                <default>false</default>
+                <label>Arcelor Mittal</label>
+            </value>
+            <value>
+                <fullName>Bull Moose Tube</fullName>
+                <default>false</default>
+                <label>Bull Moose Tube</label>
+            </value>
+            <value>
+                <fullName>Detroit Tube</fullName>
+                <default>false</default>
+                <label>Detroit Tube</label>
+            </value>
+            <value>
+                <fullName>Epix Tube</fullName>
+                <default>false</default>
+                <label>Epix Tube</label>
+            </value>
+            <value>
+                <fullName>Indiana Steel &amp; Tube</fullName>
+                <default>false</default>
+                <label>Indiana Steel &amp; Tube</label>
+            </value>
+            <value>
+                <fullName>Jackson Tube</fullName>
+                <default>false</default>
+                <label>Jackson Tube</label>
+            </value>
+            <value>
+                <fullName>Leavitt Tube (Maruichi Steel)</fullName>
+                <default>false</default>
+                <label>Leavitt Tube (Maruichi Steel)</label>
+            </value>
+            <value>
+                <fullName>Lockjoint Tube</fullName>
+                <default>false</default>
+                <label>Lockjoint Tube</label>
+            </value>
+            <value>
+                <fullName>LP Tube</fullName>
+                <default>false</default>
+                <label>LP Tube</label>
+            </value>
+            <value>
+                <fullName>Major Metals</fullName>
+                <default>false</default>
+                <label>Major Metals</label>
+            </value>
+            <value>
+                <fullName>Marcegaglia USA</fullName>
+                <default>false</default>
+                <label>Marcegaglia USA</label>
+            </value>
+            <value>
+                <fullName>Metal Matic</fullName>
+                <default>false</default>
+                <label>Metal Matic</label>
+            </value>
+            <value>
+                <fullName>Mid Ohio Tube</fullName>
+                <default>false</default>
+                <label>Mid Ohio Tube</label>
+            </value>
+            <value>
+                <fullName>Midwest Tube</fullName>
+                <default>false</default>
+                <label>Midwest Tube</label>
+            </value>
+            <value>
+                <fullName>Parthenon Metal Works</fullName>
+                <default>false</default>
+                <label>Parthenon Metal Works</label>
+            </value>
+            <value>
+                <fullName>Phoenix Tube</fullName>
+                <default>false</default>
+                <label>Phoenix Tube</label>
+            </value>
+            <value>
+                <fullName>Shelby Welded Tube</fullName>
+                <default>false</default>
+                <label>Shelby Welded Tube</label>
+            </value>
+            <value>
+                <fullName>Southeast Tube</fullName>
+                <default>false</default>
+                <label>Southeast Tube</label>
+            </value>
+            <value>
+                <fullName>Sterling Pipe &amp; Tube</fullName>
+                <default>false</default>
+                <label>Sterling Pipe &amp; Tube</label>
+            </value>
+            <value>
+                <fullName>T&amp;B Tube</fullName>
+                <default>false</default>
+                <label>T&amp;B Tube</label>
+            </value>
+            <value>
+                <fullName>Tapco Tube Company</fullName>
+                <default>false</default>
+                <label>Tapco Tube Company</label>
+            </value>
+            <value>
+                <fullName>Tarter Tube</fullName>
+                <default>false</default>
+                <label>Tarter Tube</label>
+            </value>
+            <value>
+                <fullName>Tube Tech</fullName>
+                <default>false</default>
+                <label>Tube Tech</label>
+            </value>
+            <value>
+                <fullName>United Tube Company</fullName>
+                <default>false</default>
+                <label>United Tube Company</label>
+            </value>
+            <value>
+                <fullName>Welded Tube of Canada</fullName>
+                <default>false</default>
+                <label>Welded Tube of Canada</label>
+            </value>
+            <value>
+                <fullName>Western Tube</fullName>
+                <default>false</default>
+                <label>Western Tube</label>
+            </value>
+            <value>
+                <fullName>Wheatland Tube</fullName>
+                <default>false</default>
+                <label>Wheatland Tube</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Trinity</fullName>
+                <default>false</default>
+                <label>Trinity</label>
+            </value>
+            <value>
+                <fullName>Ultimate</fullName>
+                <default>false</default>
+                <label>Ultimate</label>
+            </value>
+            <value>
+                <fullName>Wood</fullName>
+                <default>false</default>
+                <label>Wood</label>
+            </value>
+            <value>
+                <fullName>U-Channel</fullName>
+                <default>false</default>
+                <label>U-Channel</label>
+            </value>
+            <value>
+                <fullName>I-Beam</fullName>
+                <default>false</default>
+                <label>I-Beam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AttachedPO_Contract</fullName>
+    <active>true</active>
+    <description>Attached PO, Contract, or commitment required to advance the stage to Closed Won</description>
+    <errorConditionFormula>AND (  Attached_PO_Contract_or_commitment__c  = FALSE,
+TEXT(StageName)=&quot;Closed Won&quot;,
+(RecordType.DeveloperName  = &quot;OEM_Opportunity&quot;))</errorConditionFormula>
+    <errorMessage>Attached PO, Contract, or commitment must be checked before advancing to the next opportunity stage.</errorMessage>
+</ValidationRule>

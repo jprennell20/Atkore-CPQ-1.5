@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Count__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division__c ,
+&#39;CRC&#39; , Quote__r.Count_CRC_Quote_Lines__c,
+
+&#39;ALFITT&#39; , Quote__r.Count_ALFITT_Quote_Lines__c,
+
+&#39;STEELCON / ECN&#39; , Quote__r.Count_ECN_Quote_Lines__c + Quote__r.Count_Steel_Conduit_Quote_Lines__c,
+
+&#39;AFC&#39; , Quote__r.Count_AFC_Quote_Lines__c,
+
+&#39;MTLFRM&#39;, Quote__r.Count_Metal_Framing_Quote_Lines__c,
+
+&#39;PPC&#39;, Quote__r.Count_PVCCON_Quote_Lines__c + Quote__r.Count_PVCFIT_Quote_Lines__c + Quote__r.Count_PVCWPIPE_Quote_Lines__c,
+
+NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Line Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

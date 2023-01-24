@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_to_required_for_Lost_Reason_Comp</fullName>
+    <active>true</active>
+    <description>Lost Details are required when Lost Reason is required</description>
+    <errorConditionFormula>AND (
+ISPICKVAL( StageName, &quot;Closed Lost&quot;)&amp;&amp;
+NOT(ISBLANK(TEXT (Lost_Reason__c))),
+ISBLANK(( Lost_Details__c  )),Data_Cannon__c=False
+)</errorConditionFormula>
+    <errorDisplayField>Lost_Details__c</errorDisplayField>
+    <errorMessage>&#39;Lost Details&#39; field is required when Opportunity is Closed Lost.</errorMessage>
+</ValidationRule>

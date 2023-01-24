@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_After_Quoting_QApproved_or_CLost</fullName>
+    <active>true</active>
+    <description>If selected stage is Quoting - next stage must be Quote Approved or Closed Lost</description>
+    <errorConditionFormula>AND(
+            RecordType.DeveloperName = &quot;Unistrut&quot;,
+            AND(
+                ISPICKVAL( PRIORVALUE ( StageName), &quot;Quoting&quot;),
+                AND(
+                    ISCHANGED(StageName),
+                    OR
+                    (
+                        ISPICKVAL(StageName, &quot;Closed Won&quot;)
+                    )
+                )
+            ),
+            !Ignore_Validation_Rules__c
+        )</errorConditionFormula>
+    <errorMessage>Next stage must be either Quote Approved or Closed Lost</errorMessage>
+</ValidationRule>

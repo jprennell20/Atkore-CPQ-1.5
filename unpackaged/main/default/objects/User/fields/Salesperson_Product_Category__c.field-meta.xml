@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesperson_Product_Category__c</fullName>
+    <description>Enter a description about product category for this salesperson.  
+Update 4/28/14: 
+used in TerritoryManagement.cls to create test user records
+used in formula for Opportunity_name_suffix__c, which is in turn used to set opportunity name - an Inactive workflow
+Update 7/28/14: 
+Used for reporting
+Note 12/16/15:
+Apparently also used in Lead:Owner_Product__c.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a description about product category for this salesperson.  Used in report filtering.  Enter: 
+UNISTRUT UK
+UNISTRUT NZ
+UNISTRUT AU
+UNISTRUT
+TELESPAR
+STDPIPE
+MECHANICAL
+KAFTECH
+FENCE
+ELECTRICAL
+COPE
+BARBED TAPE
+AFC
+HERITAGE</inlineHelpText>
+    <label>Salesperson Product Category</label>
+    <length>55</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

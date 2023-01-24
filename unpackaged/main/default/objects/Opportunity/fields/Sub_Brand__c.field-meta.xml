@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Brand__c</fullName>
+    <description>Sub brand of Product Category</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sub brand of Product Category</inlineHelpText>
+    <label>Sub Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFC Cable Systems, Kaf-Tech</fullName>
+                <default>false</default>
+                <label>AFC Cable Systems, Kaf-Tech</label>
+            </value>
+            <value>
+                <fullName>Cope, US Tray</fullName>
+                <default>false</default>
+                <label>Cope, US Tray</label>
+            </value>
+            <value>
+                <fullName>Unistrut, Powerstrut</fullName>
+                <default>false</default>
+                <label>Unistrut, Powerstrut</label>
+            </value>
+            <value>
+                <fullName>Allied Tube and Conduit,  Heritage, Cor-Tek</fullName>
+                <default>false</default>
+                <label>Allied Tube and Conduit,  Heritage, Cor-Tek</label>
+            </value>
+            <value>
+                <fullName>Allied Tube and Conduit,  Heritage</fullName>
+                <default>false</default>
+                <label>Allied Tube and Conduit,  Heritage</label>
+            </value>
+            <value>
+                <fullName>Allied Tube &amp; Conduit</fullName>
+                <default>false</default>
+                <label>Allied Tube &amp; Conduit</label>
+            </value>
+            <value>
+                <fullName>Allied Tube &amp; Conduit, Calconduit</fullName>
+                <default>false</default>
+                <label>Allied Tube &amp; Conduit, Calconduit</label>
+            </value>
+            <value>
+                <fullName>FRE Composites</fullName>
+                <default>false</default>
+                <label>FRE Composites</label>
+            </value>
+            <value>
+                <fullName>Allied Tube &amp; Conduit, Calbond</fullName>
+                <default>false</default>
+                <label>Allied Tube &amp; Conduit, Calbond</label>
+            </value>
+            <value>
+                <fullName>Allied Tube &amp; Conduit, Calbrite</fullName>
+                <default>false</default>
+                <label>Allied Tube &amp; Conduit, Calbrite</label>
+            </value>
+            <value>
+                <fullName>Eastern Wire &amp; Conduit, United Poly Systems,  Four Star Industries</fullName>
+                <default>false</default>
+                <label>Eastern Wire &amp; Conduit, United Poly Systems,  Four Star Industries</label>
+            </value>
+            <value>
+                <fullName>ACS/Uni-Fab, Cii</fullName>
+                <default>false</default>
+                <label>ACS/Uni-Fab, Cii</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_PVC_Fittings__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   Quote__r.Margin_PVC_Fittings__c = 0,
+   NULL,
+   Quote__r.Margin_PVC_Fittings__c
+)</formula>
+    <label>Margin % (PVC Fittings)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

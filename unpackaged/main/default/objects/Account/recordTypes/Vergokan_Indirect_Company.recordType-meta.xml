@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vergokan_Indirect_Company</fullName>
+    <active>true</active>
+    <label>Vergokan Indirect Company</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>AFC Website Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbour ABI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADENAS Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construct Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dodge Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibition Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon Mailing List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon Wishlist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IIR-PEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Koreflex Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Koreflex Mailing List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid for Database</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Website Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tawk Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultra Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ACS%2FUni-Fab Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ACS%2FUni-Fab Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - AFC Cable Luminary Sample Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - AFC Cable MC Glide Sample Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - AFC Cable Systems Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - AFC Cable Systems Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ATC Electrical%2Eus Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ATC Electrical%2Eus Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ATC Mechanical Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - ATC Mechanical Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore BIM Download Login</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore Contact Us Prefab Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore Invester Alerts Signup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore Newsletter Signup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Atkore%2Ecom Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbond Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbond Installer Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbond Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbrite Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbrite Installer Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbrite Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calbrite Product Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calconduit Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calpipe Security Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Calpipe Security Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Cii Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Cii Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Columbia MBF Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Columbia MBF Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Cope Cable Tray Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Cope Cable Tray Product Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Cope Cable Tray Rapid Splice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Eastern Wire Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Eastern Wire Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - FRE Composites Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - FRE Composites Contact Us - Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Heritage Plastics Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Heritage Plastics Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Kaf-Tech Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Kaf-Tech Luminary Sample Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Kaf-Tech Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Kaf-Tech MC Glide Sample Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Marco CM Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Mobile Show QR Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Power-Strut Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Power-Strut Curved Channel Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Razor Ribbon Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Razor Ribbon Euro Market Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - US Tray Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Unistrut Construction Lunch and Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Unistrut Curved Channel Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Unistrut Trapeze Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Unistrut USA Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Vergokan Contact Us</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Vergokan Partnerzone Login</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Vergokan Partnerzone Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Vergokan Pricelist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form - Vergokan Technical Drawings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Registration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agent_Sub_Brands__c</picklist>
+        <values>
+            <fullName>ACS%2FUni-Fab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC Cable Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allied Tube %26 Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calbond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calbrite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calconduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Wire %26 Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage Plastics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaf-tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power-Strut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Unit_Suppliers__c</picklist>
+        <values>
+            <fullName>Cable Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Products %26 Solutions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Unit__c</picklist>
+        <values>
+            <fullName>Cable Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit %26 Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical %E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Products %26 Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety %26 Infrastructure%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CPQ_Pricing_Divisions__c</picklist>
+        <values>
+            <fullName>Co-Load</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Co_op__c</picklist>
+        <values>
+            <fullName>ATCE MKTG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATCM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CommercientSF__Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>false</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CommercientSF__CustomerPriority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CommercientSF__SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CommercientSF__UpsellOpportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contains_3TG__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fruit__c</picklist>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cherry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rasberry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strawberry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constructions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Wholesaler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hazardous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hygiene</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %26 Power Generation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utitlities %26 Power Generation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_Type__c</picklist>
+        <values>
+            <fullName>Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Wholesaler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hazardous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hygiene</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plumbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities %26 Power Generation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Institution_Type__c</picklist>
+        <values>
+            <fullName>Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Key_Account_Regions__c</picklist>
+        <values>
+            <fullName>AFC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC KAFTECH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC S%2E CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC SOUTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC HOUSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC S%2E CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC SOUTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbed Tape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Ohio Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED South Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Latin America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Ohio Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC SOUTHWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI WEST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Main_Category__c</picklist>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaftech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Bollards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mechanical_Tracking__c</picklist>
+        <values>
+            <fullName>New Customer - Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer - Tectron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Add Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_Customer_Type__c</picklist>
+        <values>
+            <fullName>Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civil Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Corporate Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Division Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Region Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Inspector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial%2FMRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partners%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Owners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utility</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Options_3TG__c</picklist>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tantalum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tungsten</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>Contractor- Ace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor- P3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor- Priority</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Response_Received__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__CoTerminationEvent__c</picklist>
+        <values>
+            <fullName>Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ContractCoTermination__c</picklist>
+        <values>
+            <fullName>Always</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prompt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalModel__c</picklist>
+        <values>
+            <fullName>Asset Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+        <values>
+            <fullName>List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TaxExempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBU__c</picklist>
+        <values>
+            <fullName>Cable Management N%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit Cable Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corrosion Resistant Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Boxes %26 Enclosures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Cable %26 Flexible Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexible Conduit EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDPE Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Pipe %26 Tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing%2FCable Mgmt%2E APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing%2FCable Mgmt%2E Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing%2FCable Mgmt%2E N%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing%2FCable Mngmt%2E UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New SBU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic_Pipe_Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-wired%2FModular Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel_Conduit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Agency_Product_Category__c</picklist>
+        <values>
+            <fullName>AFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aikinstrut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaftech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unistrut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_Atkore__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner %2F Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_Cable_Tray__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_Cable__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner %2F Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_Metal_Conduit__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner %2F Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_Metal_Framing__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner %2F Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmentation_PVC_Conduit__c</picklist>
+        <values>
+            <fullName>Key Driver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner %2F Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valued Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source_Country_3TG__c</picklist>
+        <values>
+            <fullName>DRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Actionable within 3 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacted not currently actionable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identified %28opportunistic or purposeful%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26A opportunity created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Category__c</picklist>
+        <values>
+            <fullName>Datacom %2F Telecom Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datacom Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical OEM Manufactures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineers %26 Architects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Construction Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governmental Traffic Agencies %28Department of Transportation%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hwy%2C Street %26 Bridge Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRO Suppliers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipe%2C Valve%2C %26 Fittings Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plumbing Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plumbing Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Wholesalers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Service Centers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier_Type__c</picklist>
+        <values>
+            <fullName>AL - Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aluminum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coating Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Rolled Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiberglass Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiberglass Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiberglass Strut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE Wax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PVC Raw Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel Fittings%2FHardware%2FEtc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel - Fittings%2FBoxes%2FHardware%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel - Flexible Hose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel - Galvanized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel - Hot Rolled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Account_Regions__c</picklist>
+        <values>
+            <fullName>AFC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC KAFTECH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC S%2E CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC SOUTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC HOUSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC S%2E CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC SOUTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbed Tape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Ohio Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED South Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAED West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Latin America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Ohio Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sprinkler West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC SOUTHWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJC WEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telespar West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI EAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI MIDWEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNI WEST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Wholesaler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26E Wholesaler</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Response_Received__c</picklist>
+        <values>
+            <fullName>CMRT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3TG_in_Parts_supplied_to_Atkore__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>proj_ProjectCategory__c</picklist>
+        <values>
+            <fullName>Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Powerplant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports Facilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>proj_ProjectStatusReason__c</picklist>
+        <values>
+            <fullName>Abandoned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Opportunities Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partially Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postponed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>proj_ProjectStatus__c</picklist>
+        <values>
+            <fullName>Budgetary Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buy Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not a Project Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>proj_ProjectType__c</picklist>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>proj_SellingSBU__c</picklist>
+        <values>
+            <fullName>Cable Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduit %26 Cable Fittings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corrosion Resistant Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Cable and Flexible Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic Pipe and Conduit %28PPC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Wired%2FModule Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Conduit %26 ECN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

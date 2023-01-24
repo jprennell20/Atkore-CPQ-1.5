@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Fit_MA__c</fullName>
+    <description>2=Sector/Product fit with an existing KST
+1=Pre-Defined Opportunistic
+0=Does not fit with existing Sector/Product KST</description>
+    <externalId>false</externalId>
+    <inlineHelpText>2=Sector/Product fit with an existing KST
+1=Pre-Defined Opportunistic
+0=Does not fit with existing Sector/Product KST</inlineHelpText>
+    <label>Strategic Fit</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

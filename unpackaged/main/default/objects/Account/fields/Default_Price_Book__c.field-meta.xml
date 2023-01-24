@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Price_Book__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Price Book to use if there is no Syspro customer record or the Syspro Customer record has no price code</description>
+    <externalId>false</externalId>
+    <label>Default Price Book</label>
+    <referenceTo>Pricebook2</referenceTo>
+    <relationshipLabel>Companies</relationshipLabel>
+    <relationshipName>Companies</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

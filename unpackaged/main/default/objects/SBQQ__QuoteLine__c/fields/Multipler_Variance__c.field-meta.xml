@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multipler_Variance__c</fullName>
+    <externalId>false</externalId>
+    <formula>ROUND(
+
+
+   Effective_Multiplier__c - IF(Pricing_Type__c = &#39;Net&#39;, SBQQ__ListPrice__c / SBQQ__OriginalPrice__c, Default_Multiplier__c),
+
+
+
+3)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Multiplier Variance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Customer_Source__c</fullName>
+    <description>Will contain &quot;Dodge Report&quot; when non-customer is created from loading of Dodge Project data</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Will contain &quot;Dodge Report&quot; when non-customer is created from loading of Dodge Project data</inlineHelpText>
+    <label>Non-Customer Source</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

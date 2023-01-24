@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DEP_Pricing_Division__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>DEP_Pricing Division</label>
+    <referenceTo>Pricing_Division__c</referenceTo>
+    <relationshipLabel>Quote Review Requests</relationshipLabel>
+    <relationshipName>Quote_Requests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Customer_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Customer Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Architect</fullName>
+                <default>false</default>
+                <label>Architect</label>
+            </value>
+            <value>
+                <fullName>Association</fullName>
+                <default>false</default>
+                <label>Association</label>
+            </value>
+            <value>
+                <fullName>Civil Engineer</fullName>
+                <default>false</default>
+                <label>Civil Engineer</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Consulting Engineer</fullName>
+                <default>false</default>
+                <label>Consulting Engineer</label>
+            </value>
+            <value>
+                <fullName>Customer Corporate Location</fullName>
+                <default>false</default>
+                <label>Customer Corporate Location</label>
+            </value>
+            <value>
+                <fullName>Customer Division Location</fullName>
+                <default>false</default>
+                <label>Customer Division Location</label>
+            </value>
+            <value>
+                <fullName>Customer Region Location</fullName>
+                <default>false</default>
+                <label>Customer Region Location</label>
+            </value>
+            <value>
+                <fullName>Electrical Contractor</fullName>
+                <default>false</default>
+                <label>Electrical Contractor</label>
+            </value>
+            <value>
+                <fullName>Electrical Engineer</fullName>
+                <default>false</default>
+                <label>Electrical Engineer</label>
+            </value>
+            <value>
+                <fullName>Electrical Inspector</fullName>
+                <default>false</default>
+                <label>Electrical Inspector</label>
+            </value>
+            <value>
+                <fullName>End User</fullName>
+                <default>false</default>
+                <label>End User</label>
+            </value>
+            <value>
+                <fullName>EPC</fullName>
+                <default>false</default>
+                <label>EPC</label>
+            </value>
+            <value>
+                <fullName>Fence Contractor</fullName>
+                <default>false</default>
+                <label>Fence Contractor</label>
+            </value>
+            <value>
+                <fullName>General Contractor</fullName>
+                <default>false</default>
+                <label>General Contractor</label>
+            </value>
+            <value>
+                <fullName>Industrial/MRO</fullName>
+                <default>false</default>
+                <label>Industrial/MRO</label>
+            </value>
+            <value>
+                <fullName>Landscape Engineer</fullName>
+                <default>false</default>
+                <label>Landscape Engineer</label>
+            </value>
+            <value>
+                <fullName>Mechanical Engineer</fullName>
+                <default>false</default>
+                <label>Mechanical Engineer</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Parent Account</fullName>
+                <default>false</default>
+                <label>Parent Account</label>
+            </value>
+            <value>
+                <fullName>Partners/Other</fullName>
+                <default>false</default>
+                <label>Partners/Other</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Sales Agency</fullName>
+                <default>false</default>
+                <label>Sales Agency</label>
+            </value>
+            <value>
+                <fullName>Site Owners</fullName>
+                <default>false</default>
+                <label>Site Owners</label>
+            </value>
+            <value>
+                <fullName>Sprinkler Contractor</fullName>
+                <default>false</default>
+                <label>Sprinkler Contractor</label>
+            </value>
+            <value>
+                <fullName>Structural Engineer</fullName>
+                <default>false</default>
+                <label>Structural Engineer</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <label>Utility</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PGM_Visibility__c</fullName>
+    <description>This multiselect pickist will be used to determine which Price Group-Level Stock Quotes this user can see.  This field is applicable for Community users only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This multiselect pickist will be used to determine which Price Group-Level Stock Quotes this user can see.  This field is applicable for Community users only.</inlineHelpText>
+    <label>Price Group Visibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AFC</fullName>
+                <default>false</default>
+                <label>AFC</label>
+            </value>
+            <value>
+                <fullName>ATC</fullName>
+                <default>false</default>
+                <label>ATC</label>
+            </value>
+            <value>
+                <fullName>CRC</fullName>
+                <default>false</default>
+                <label>CRC</label>
+            </value>
+            <value>
+                <fullName>KON</fullName>
+                <default>false</default>
+                <label>KON</label>
+            </value>
+            <value>
+                <fullName>PPC</fullName>
+                <default>false</default>
+                <label>PPC</label>
+            </value>
+            <value>
+                <fullName>PST</fullName>
+                <default>false</default>
+                <label>PST</label>
+            </value>
+            <value>
+                <fullName>UNI</fullName>
+                <default>false</default>
+                <label>UNI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

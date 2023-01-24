@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>proj_ProjectCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>Project Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Data Center</fullName>
+                <default>false</default>
+                <label>Data Center</label>
+            </value>
+            <value>
+                <fullName>Airport</fullName>
+                <default>false</default>
+                <label>Airport</label>
+            </value>
+            <value>
+                <fullName>Powerplant</fullName>
+                <default>false</default>
+                <label>Powerplant</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Sports Facilities</fullName>
+                <default>false</default>
+                <label>Sports Facilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

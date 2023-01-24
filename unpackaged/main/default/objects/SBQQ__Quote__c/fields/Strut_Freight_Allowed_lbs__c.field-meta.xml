@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strut_Freight_Allowed_lbs__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Freight is allowed for Strut products if order is at or above this weight.</inlineHelpText>
+    <label>Strut Freight Allowed (lbs)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

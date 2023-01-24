@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>taAssignmentStatus__c</fullName>
+    <defaultValue>&#39;Account team successfully assigned&#39;</defaultValue>
+    <description>Current Account Team assignment status including error messages.  Contact Atkore Salesforce.com administration for additional information (LManley@atkore.com)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Current Account Team assignment status including error messages.  Contact Atkore Salesforce.com administration for additional information (LManley@atkore.com)</inlineHelpText>
+    <label>Assignment Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

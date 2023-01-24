@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_Related_Quotes_must_be_approved</fullName>
+    <active>true</active>
+    <description>To select Quote Approved stage - related quotes should be approved.</description>
+    <errorConditionFormula>AND(
+OR(RecordType.DeveloperName = &quot;Flexicon&quot;, RecordType.DeveloperName = &quot;Koreflex&quot;, RecordType.DeveloperName = &quot;Unistrut&quot;, RecordType.DeveloperName = &quot;Flexicon_Oz&quot;, RecordType.DeveloperName = &quot;Unistrut_NZ&quot;, RecordType.DeveloperName = &quot;Unistrut_Oz&quot;),
+        AND(
+ISCHANGED(StageName),
+TEXT(StageName) = &quot;Quote Approved&quot;,
+Number_of_Approved_Quotes__c = 0
+))</errorConditionFormula>
+    <errorMessage>To select Quote Approved stage you need to have approved quote record.</errorMessage>
+</ValidationRule>

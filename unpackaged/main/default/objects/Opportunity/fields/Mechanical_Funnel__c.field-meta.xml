@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mechanical_Funnel__c</fullName>
+    <externalId>false</externalId>
+    <label>Funnel Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Flexicon</fullName>
+                <default>false</default>
+                <label>Flexicon</label>
+            </value>
+            <value>
+                <fullName>MASSH-400</fullName>
+                <default>false</default>
+                <label>MASSH-400</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+            <value>
+                <fullName>Mechanical - Value Add</fullName>
+                <default>false</default>
+                <label>Mechanical - Value Add</label>
+            </value>
+            <value>
+                <fullName>Saflector</fullName>
+                <default>false</default>
+                <label>Saflector</label>
+            </value>
+            <value>
+                <fullName>Tectron</fullName>
+                <default>false</default>
+                <label>Tectron</label>
+            </value>
+            <value>
+                <fullName>Tectron - Value Add</fullName>
+                <default>false</default>
+                <label>Tectron - Value Add</label>
+            </value>
+            <value>
+                <fullName>Traffic Safety</fullName>
+                <default>false</default>
+                <label>Telespar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

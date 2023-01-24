@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Code__c</fullName>
+    <description>Copied to records when they are created so that Countries can be separated in list views and reports (specifically for those accessing data with an International profile).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Copied to records when they are created so that Countries can be separated in list views and reports (specifically for those accessing data with an International profile).</inlineHelpText>
+    <label>System Code</label>
+    <length>5</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

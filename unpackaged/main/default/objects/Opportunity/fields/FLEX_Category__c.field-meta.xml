@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLEX_Category__c</fullName>
+    <description>Category Formula created for Flexicon and Koreflex to replace the old Category Picklist which is currently used by Unistrut.</description>
+    <externalId>false</externalId>
+    <formula>IF( Account.CommercientSF__Syspro_Customer_Record__r.CommercientSF__Branch__c = &quot;01&quot;, &quot;External Export&quot;, &quot;UK Sales&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

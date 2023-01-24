@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VC__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Select the value chain for this company.  Sales assignments are based on Value Chain and Billing Postal Code and is required for Territory Management assignments</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the value chain for this company.  Sales assignments are based on Value Chain and Billing Postal Code and is required for Territory Management assignments</inlineHelpText>
+    <label>Value Chain</label>
+    <referenceTo>Value_Chain__c</referenceTo>
+    <relationshipLabel>Companies</relationshipLabel>
+    <relationshipName>Companies</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

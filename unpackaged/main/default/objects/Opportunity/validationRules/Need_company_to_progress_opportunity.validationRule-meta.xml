@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_company_to_progress_opportunity</fullName>
+    <active>false</active>
+    <description>OEM opportunities are allowed to not have a company name in the first stage, however it will create an error if they try to progress to the nest stage without one</description>
+    <errorConditionFormula>ISCHANGED(StageName) 
+ &amp;&amp;  ISBLANK(AccountId) &amp;&amp; (RecordType.DeveloperName != &quot;Flexicon&quot; &amp;&amp; RecordType.DeveloperName != &quot;Koreflex&quot; 
+&amp;&amp; RecordType.DeveloperName != &quot;Unistrut&quot; &amp;&amp; RecordType.DeveloperName != &quot;Unistrut Export&quot;)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>You must add a Company name to continue onto the next stage</errorMessage>
+</ValidationRule>

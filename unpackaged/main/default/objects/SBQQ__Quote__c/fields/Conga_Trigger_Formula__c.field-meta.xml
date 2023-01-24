@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Trigger_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;&amp;Id=&quot;
++Id
++&quot;&amp;QueryID=[QLI]a9V56000000N3r9EAC,[Agent]a9V56000000N3rIEAS,[addlterms]a9V56000000N3r3EAC,[addlterms1]a9V56000000N3r8EAC,[prepaid]a9V56000000N3rDEAS&quot;
++&quot;&amp;TemplateId=a9d560000004OJUAA2&quot;
++&quot;&amp;DefaultPDF=1&quot;
++&quot;&amp;SC0=1&quot;
++&quot;&amp;SC1=Attachments&quot;
++&quot;&amp;qmode=sendemail&quot;
++&quot;&amp;EmailTemplateId=00X56000003IPPMEA4&quot;
++&quot;&amp;EmailToId=&quot;
++ SBQQ__Opportunity2__r.Agent_Contact__c</formula>
+    <label>Conga Trigger Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

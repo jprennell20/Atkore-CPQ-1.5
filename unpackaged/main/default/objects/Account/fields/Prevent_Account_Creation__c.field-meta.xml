@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Account_Creation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to prevent account creation on lead conversion. Its value is mapped to Lead field with the same name. Lead field value is set in workflow based on Lead Flexicon record type.</description>
+    <externalId>false</externalId>
+    <label>Prevent Account Creation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

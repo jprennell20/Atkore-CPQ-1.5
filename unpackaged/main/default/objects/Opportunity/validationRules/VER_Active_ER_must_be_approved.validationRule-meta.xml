@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VER_Active_ER_must_be_approved</fullName>
+    <active>true</active>
+    <description>Active Engineering Requests must be approved for Opportunity before Quoting or Closed Won</description>
+    <errorConditionFormula>AND(							OR(RecordType.DeveloperName = &quot;Vergokan&quot; || RecordType.DeveloperName = &quot;Flexicon_Oz&quot; || RecordType.DeveloperName = &quot;Unistrut_Oz&quot; || RecordType.DeveloperName = &quot;Unistrut_NZ&quot; ),							AND(								ISCHANGED(StageName),								ISPICKVAL(PRIORVALUE(StageName), &quot;Engineering Request&quot;),							OR(								TEXT(StageName) = &quot;Quoting&quot;, TEXT(StageName) = &quot;APAC Qualifying&quot;, TEXT(StageName) = &quot;Quote Prep&quot;, TEXT(StageName) = &quot;Quote Approved&quot;, TEXT(StageName) = &quot;Quote Sent&quot;, TEXT(StageName) = &quot;Closed Won&quot;),									AND(									Number_of_Approved_Engineering_Requests__c = 0,									Number_of_Active_Engineering_Requests__c &gt; 0)))</errorConditionFormula>
+    <errorMessage>All Active Engineering Requests must be approved.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metal_Framing_Cable_Mgt_Market__c</fullName>
+    <description>select market for opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>select market for opportunity</inlineHelpText>
+    <label>Metal Framing Cable Mgt Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

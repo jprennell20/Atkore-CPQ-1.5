@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X0_STEELCON_Line__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+   Pricing_Division_Code__c = &#39;STEELCON&#39;,
+   Quoted_Price_Less_Freight_Adder__c = 0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>$0 STEELCON Line</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

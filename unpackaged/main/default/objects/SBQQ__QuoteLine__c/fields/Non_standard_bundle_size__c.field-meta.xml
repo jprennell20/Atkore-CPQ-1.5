@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_standard_bundle_size__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+   OR(
+      Standard_Bundle_Size__c != 0, 
+      Standard_Bundle_Size__c != null
+     ),
+
+MOD(Quantity_user__c, Standard_Bundle_Size__c)=0, 
+
+FALSE
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is standard bundle size</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

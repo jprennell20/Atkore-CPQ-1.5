@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectAccAdditionalDetailsLost</fullName>
+    <active>true</active>
+    <description>Project Accounts require more details if Status = Lost</description>
+    <errorConditionFormula>AND(
+   RecordType.Name=&quot;Project&quot;,
+   ISPICKVAL( proj_ProjectStatus__c ,&quot;Lost&quot;),
+   ISBLANK( TEXT( proj_ProjectStatusReason__c ) ) 
+   )</errorConditionFormula>
+    <errorDisplayField>proj_ProjectStatusReason__c</errorDisplayField>
+    <errorMessage>Project Status Reason is required</errorMessage>
+</ValidationRule>

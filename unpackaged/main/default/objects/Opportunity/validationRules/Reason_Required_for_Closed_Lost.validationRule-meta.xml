@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Required_for_Closed_Lost</fullName>
+    <active>true</active>
+    <description>Requires users to complete &#39;Lost Reason&#39; field upon Closed Lost deals</description>
+    <errorConditionFormula>AND(
+				TEXT(StageName) = &quot;Closed Lost&quot;,
+				ISBLANK(TEXT ( Lost_Reason__c)),
+				(RecordType.DeveloperName != &#39;Flexicon&#39;),
+				(RecordType.DeveloperName != &#39;Koreflex&#39;),
+				(RecordType.DeveloperName != &#39;Unistrut&#39;),
+				(RecordType.DeveloperName != &#39;Unistrut_Export&#39;),
+				(RecordType.DeveloperName != &#39;Vergokan&#39;),
+				(RecordType.DeveloperName != &#39;Unistrut_Oz&#39;),
+				(RecordType.DeveloperName != &#39;Unistrut_NZ&#39;),
+				(RecordType.DeveloperName != &#39;Flexicon_Oz&#39;)
+)</errorConditionFormula>
+    <errorDisplayField>Lost_Reason__c</errorDisplayField>
+    <errorMessage>Lost Reason and Lost Details are required upon Closed Lost</errorMessage>
+</ValidationRule>

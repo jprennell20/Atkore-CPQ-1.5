@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INTER_Make_Lost_Details_Required</fullName>
+    <active>true</active>
+    <description>If Opportunity is Closed Lost, Lost Details field is required</description>
+    <errorConditionFormula>AND(
+				RecordType.DeveloperName = &quot;Unistrut&quot;,
+				ISPICKVAL(StageName, &#39;Closed Lost&#39;),
+				ISBLANK(Lost_Details__c),
+				NOT(Ignore_Validation_Rules__c)
+)</errorConditionFormula>
+    <errorDisplayField>Lost_Details__c</errorDisplayField>
+    <errorMessage>Please, provide Lost Details for Opportunity Closed Lost</errorMessage>
+</ValidationRule>

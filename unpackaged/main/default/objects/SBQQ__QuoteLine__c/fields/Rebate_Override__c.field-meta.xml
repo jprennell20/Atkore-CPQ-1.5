@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rebate_Override__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Pricing_Division_Code__c , &#39;CORRRES&#39;,  SBQQ__Quote__r.Rebate_Override_Aluminum_Conduit_Fitting__c  , &#39;ALFITT&#39;,  SBQQ__Quote__r.Rebate_Override_Conduit_Cable_Fittings__c , &#39;ECN&#39;,  SBQQ__Quote__r.Rebate_Override_ECN__c  , &#39;AFC&#39;,   SBQQ__Quote__r.AFC_Rebate_Override__c  , &#39;MTLFRM&#39;,  SBQQ__Quote__r.Rebate_Override_Metal_Framing__c , &#39;PVCCON&#39;,   SBQQ__Quote__r.Rebate_Override_PVC_Conduit__c  , &#39;PVCFIT&#39;,  SBQQ__Quote__r.Rebate_Override_PVC_Fittings__c  , &#39;STEELCON&#39;,  SBQQ__Quote__r.Rebate_Override_Steel_Conduit__c ,null)</formula>
+    <label>Rebate % Override</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

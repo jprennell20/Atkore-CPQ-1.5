@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_ElectricalCableFlexConduit_Aprv2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True if margin less than 8</description>
+    <externalId>false</externalId>
+    <label>Margin ElectricalCableFlexConduit Aprv2</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

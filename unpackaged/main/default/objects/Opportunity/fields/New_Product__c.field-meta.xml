@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Product__c</fullName>
+    <externalId>false</externalId>
+    <label>New Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>10 AWG Modular System (ACS)</fullName>
+                <default>false</default>
+                <label>10 AWG Modular System (ACS)</label>
+            </value>
+            <value>
+                <fullName>20C 3in Profile (Cope)</fullName>
+                <default>false</default>
+                <label>20C 3in Profile (Cope)</label>
+            </value>
+            <value>
+                <fullName>Universal Super Coupling</fullName>
+                <default>false</default>
+                <label>3- &amp; 5-Piece Compression Couplings &amp; Connectors (Konkore)</label>
+            </value>
+            <value>
+                <fullName>5in Glas Tray (Cope)</fullName>
+                <default>false</default>
+                <label>5in Glas Tray (Cope)</label>
+            </value>
+            <value>
+                <fullName>Armored PLFA (AFC)</fullName>
+                <default>false</default>
+                <label>Armored PLFA (AFC)</label>
+            </value>
+            <value>
+                <fullName>Brite Rail</fullName>
+                <default>false</default>
+                <label>Brite Rail</label>
+            </value>
+            <value>
+                <fullName>Power-Strut Defender</fullName>
+                <default>false</default>
+                <label>Defender Channel (Powerstrut)</label>
+            </value>
+            <value>
+                <fullName>Defender Fittings (Powerstrut)</fullName>
+                <default>false</default>
+                <label>Defender Fittings (Powerstrut)</label>
+            </value>
+            <value>
+                <fullName>Device Assemblies (ACS)</fullName>
+                <default>false</default>
+                <label>Device Assemblies (ACS)</label>
+            </value>
+            <value>
+                <fullName>Flexicon (AFC)</fullName>
+                <default>false</default>
+                <label>Flexicon (AFC)</label>
+            </value>
+            <value>
+                <fullName>Gaylords (AFC)</fullName>
+                <default>false</default>
+                <label>Gaylords (AFC)</label>
+            </value>
+            <value>
+                <fullName>MC Luminary Multizone</fullName>
+                <default>false</default>
+                <label>HCF, Multizone, Quik Luminary Cables (AFC)</label>
+            </value>
+            <value>
+                <fullName>KoreFit Fittings (Metal Framing)</fullName>
+                <default>false</default>
+                <label>KoreFit Fittings (Metal Framing)</label>
+            </value>
+            <value>
+                <fullName>Luminary Whips</fullName>
+                <default>false</default>
+                <label>Luminary Whips (AFC)</label>
+            </value>
+            <value>
+                <fullName>MC Quik Lite Plain (AFC)</fullName>
+                <default>false</default>
+                <label>MC Quik Lite Plain (AFC)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pack &amp; Roll (AFC)</fullName>
+                <default>false</default>
+                <label>Pack &amp; Roll (AFC)</label>
+            </value>
+            <value>
+                <fullName>Performance Flex (AFC)</fullName>
+                <default>false</default>
+                <label>Performance Flex (AFC)</label>
+            </value>
+            <value>
+                <fullName>Quick-Latch for WB (Cope)</fullName>
+                <default>false</default>
+                <label>Quick-Latch for WB (Cope)</label>
+            </value>
+            <value>
+                <fullName>Quick Lock Connector With Double Bite Clip (Konkore)</fullName>
+                <default>false</default>
+                <label>Quick Lock Connector With Double Bite Clip (Konkore)</label>
+            </value>
+            <value>
+                <fullName>Screw On Liquid Tight Fittings (Konkore)</fullName>
+                <default>false</default>
+                <label>Screw On Liquid Tight Fittings (Konkore)</label>
+            </value>
+            <value>
+                <fullName>Super Kwik Couple Conduit</fullName>
+                <default>false</default>
+                <label>Super Kwik Couple Conduit (Allied)</label>
+            </value>
+            <value>
+                <fullName>Telespar MASSH-400</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Telespar MASSH-400</label>
+            </value>
+            <value>
+                <fullName>WB EMT Clip (Cope)</fullName>
+                <default>false</default>
+                <label>WB EMT Clip (Cope)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

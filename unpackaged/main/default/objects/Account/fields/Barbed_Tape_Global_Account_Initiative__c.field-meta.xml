@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barbed_Tape_Global_Account_Initiative__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>tracking for Barbed Tape Global Account Initiative</description>
+    <externalId>false</externalId>
+    <inlineHelpText>tracking for Barbed Tape Global Account Initiative</inlineHelpText>
+    <label>Barbed Tape Global Account Initiative</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Square_Footage__c</fullName>
+    <description>field is populated when opportunity is created from Project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>field is populated when opportunity is created from Project</inlineHelpText>
+    <label>Project Square Footage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

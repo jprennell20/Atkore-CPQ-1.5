@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesperson_Number__c</fullName>
+    <description>Atkore Salesperson number (Alphanumeric). Must be unique.  This field is used to assign Invoice and Order ownership and to assign sharing rules for Accounts, Invoices, and Orders.  For agents, this will be their actual Atkore assigned salesperson number.  For RSMs, this is an internal number stored in the Agent table that will associate an agent number with the corresponding RSM.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Atkore Salesperson number (Alphanumeric). Must be unique. This field is used to assign Invoice and Order ownership &amp; to assign sharing rules for Accounts, Invoices, Orders. Agent = Sls #; RSM = Internal # in Agent table.</inlineHelpText>
+    <label>Salesperson Number</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

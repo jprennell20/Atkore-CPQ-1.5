@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cash_Discount__c</fullName>
+    <externalId>false</externalId>
+    <formula>Cash_Discount_AFC__c + Cash_Discount_Aluminum_Conduit_Fitting__c	 + Cash_Discount_ATC__c + Cash_Discount_Conduit_Cable_Fittings__c + Cash_Discount_CRC__c	 + Cash_Discount_ECFC__c + Cash_Discount_ECN__c + Cash_Discount_KON__c + Cash_Discount_Metal_Framing__c	 + Cash_Discount_PPC_Conduit__c + Cash_Discount_PPC_Fittings__c	 + Cash_Discount_PST__c	 + Cash_Discount_PVC_Conduit__c	 + Cash_Discount_PVC_Fittings__c	 + Cash_Discount_PVCWPIPE__c	 + Cash_Discount_Steel_Conduit__c	 + Cash_Discount_UNI__c + Cash_Discount_FRE__c + Cash_Discount_Cable_Manage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cash Discount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
